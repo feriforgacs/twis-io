@@ -1,3 +1,8 @@
+import PageTemplate from "../components/PageTemplate";
 export default function Home() {
-	return <h1>twis</h1>;
+	return (
+		<PageTemplate>
+			<h1>twis</h1>
+		</PageTemplate>
+	);
 }
