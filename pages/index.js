@@ -1,8 +1,8 @@
-import PageTemplate from "../components/PageTemplate";
+import Layout from "../components/Layout";
 export default function Home() {
 	return (
-		<PageTemplate>
+		<Layout>
 			<h1>twis</h1>
-		</PageTemplate>
+		</Layout>
 	);
 }
