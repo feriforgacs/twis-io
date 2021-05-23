@@ -1,4 +1,7 @@
+@import "normalize";
 @import "header";
+@import "hero";
+@import "utility";
 
 html,
 body {
@@ -6,4 +9,6 @@ body {
 	color: #fff;
 	font-family: "Open Sans", sans-serif;
 	font-size: 18px;
+	margin: 0;
+	padding: 0;
 }
