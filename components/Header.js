@@ -1,9 +1,15 @@
+import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
 export default function Header() {
+	const [navVisible, setNavVisible] = useState(false);
+
 	return (
 		<header id="header">
+			<button className="btn btn--nav-open" onClick={() => setNavVisible(!navVisible)}>
+				<span>&#9776;</span>
+			</button>
 			<div className="logo">
 				<Link href="/">
 					<a>
@@ -12,7 +18,7 @@ export default function Header() {
 					</a>
 				</Link>
 			</div>
-			<nav>
+			<nav className={`${navVisible ? "visible" : ""}`}>
 				<ul>
 					<li>
 						<Link href="/features">
@@ -38,6 +44,9 @@ export default function Header() {
 						</Link>
 					</li>
 				</ul>
+				<button className="btn btn--primary btn--nav-close" onClick={() => setNavVisible(!navVisible)}>
+					<span>&times;</span>
+				</button>
 			</nav>
 		</header>
 	);

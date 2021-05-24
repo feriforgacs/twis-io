@@ -1,0 +1,32 @@
+.btn{
+	background: rgba(28, 18, 77, 0.5);
+	border: none;
+	display: block;
+	text-align: center;
+
+	span{
+		display: block;
+		height: 100%;
+		width: 100%;
+	}
+
+	&--primary{
+		background: linear-gradient(103.65deg, #A30FBB 26.04%, #CE0A16 78.62%);
+		color: #fff;
+		mix-blend-mode: normal;
+
+		&:after{
+			background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+			mix-blend-mode: overlay;
+			filter: blur(4px);
+			content: "";
+			display: block;
+			height: 100%;
+			left: 0;
+			opacity: 0.5;
+			position: absolute;
+			top: 0;
+			width: 100%;
+		}
+	}
+}
