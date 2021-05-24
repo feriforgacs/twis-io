@@ -8,6 +8,7 @@
 
 	.logo {
 		font-size: 1.3rem;
+		margin-left: 2rem;
 
 		a {
 			align-items: center;
@@ -25,8 +26,8 @@
 
 	nav {
 		&.nav--primary {
-			background: #1c124d;
-			height: 100vh;
+			background: linear-gradient(180deg, #a30fbb 0%, #1c124c 100%);
+			height: 100%;
 			left: 0;
 			opacity: 0;
 			overflow-y: auto;
@@ -35,20 +36,23 @@
 			transform: translateX(-100vw);
 			transition: all 300ms ease;
 			width: 100vw;
+			z-index: 10;
 
 			ul {
 				align-items: center;
 				display: flex;
 				flex-direction: column;
-				height: 100vh;
+				height: 100%;
 				justify-content: center;
 			}
 
 			a {
+				border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 				color: #fff;
 				display: block;
-				font-weight: 700;
-				padding: 1rem;
+				font-size: 2.5rem;
+				font-weight: 400;
+				padding: 1.5rem 1rem;
 				text-decoration: none;
 			}
 
@@ -68,10 +72,11 @@
 
 	.nav-btn {
 		border-radius: 1.5rem;
-		font-size: 1.5rem;
-		height: 3rem;
-		line-height: 3rem;
-		width: 3rem;
+		font-size: 1rem;
+		height: 2.2rem;
+		line-height: 2.2rem;
+		padding: 0;
+		width: 2.2rem;
 
 		&--nav-open {
 			color: #fff;

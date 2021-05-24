@@ -6,58 +6,66 @@ export default function Header() {
 	const [navVisible, setNavVisible] = useState(false);
 
 	return (
-		<header id="header">
-			<button className="btn nav-btn nav-btn--nav-open" onClick={() => setNavVisible(!navVisible)}>
-				<span>&#9776;</span>
-			</button>
-			<div className="logo">
-				<Link href="/">
-					<a>
-						<Image src="/twis-logo.png" alt="twis logo" width={30} height={30} />
-						<span className="font--mulish">twis</span>
-					</a>
-				</Link>
+		<>
+			<div id="background-gradient">
+				<div className="gradient gradient--1"></div>
+				<div className="gradient gradient--2"></div>
+				<div className="gradient gradient--3"></div>
 			</div>
-			<nav className={`nav--primary ${navVisible ? "visible" : ""}`}>
-				<ul>
-					<li>
-						<Link href="/features">
-							<a>Features</a>
-						</Link>
-					</li>
 
-					<li>
-						<Link href="/examples">
-							<a>Examples</a>
-						</Link>
-					</li>
-
-					<li>
-						<Link href="/use-cases">
-							<a>Use cases</a>
-						</Link>
-					</li>
-
-					<li>
-						<Link href="/pricing">
-							<a>Pricing</a>
-						</Link>
-					</li>
-				</ul>
-				<button className="btn btn--primary nav-btn nav-btn--nav-close" onClick={() => setNavVisible(!navVisible)}>
-					<span>&times;</span>
+			<header id="header">
+				<button className="btn nav-btn nav-btn--nav-open" onClick={() => setNavVisible(!navVisible)}>
+					<span>&#9776;</span>
 				</button>
-			</nav>
-
-			<nav className="nav--secondary">
-				<ul>
-					<li>
-						<a href="https://app.twis.io" className="btn btn--primary">
-							Try now
+				<div className="logo">
+					<Link href="/">
+						<a>
+							<Image src="/twis-logo.png" alt="twis logo" width={30} height={30} />
+							<span className="font--mulish">twis</span>
 						</a>
-					</li>
-				</ul>
-			</nav>
-		</header>
+					</Link>
+				</div>
+				<nav className={`nav--primary ${navVisible ? "visible" : ""}`}>
+					<ul>
+						<li>
+							<Link href="/features">
+								<a>Features</a>
+							</Link>
+						</li>
+
+						<li>
+							<Link href="/examples">
+								<a>Examples</a>
+							</Link>
+						</li>
+
+						<li>
+							<Link href="/use-cases">
+								<a>Use cases</a>
+							</Link>
+						</li>
+
+						<li>
+							<Link href="/pricing">
+								<a>Pricing</a>
+							</Link>
+						</li>
+					</ul>
+					<button className="btn btn--primary nav-btn nav-btn--nav-close" onClick={() => setNavVisible(!navVisible)}>
+						<span>&times;</span>
+					</button>
+				</nav>
+
+				<nav className="nav--secondary">
+					<ul>
+						<li>
+							<a href="https://app.twis.io" className="btn btn--primary">
+								Try now
+							</a>
+						</li>
+					</ul>
+				</nav>
+			</header>
+		</>
 	);
 }

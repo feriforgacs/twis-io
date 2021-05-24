@@ -1,9 +1,18 @@
 .btn {
 	background: rgba(28, 18, 77, 0.5);
 	border: none;
+	border-radius: 1rem;
+	box-sizing: border-box;
 	display: block;
+	font-size: 0.8rem;
+	font-weight: 700;
+	height: 2rem;
+	line-height: 2rem;
+	overflow: hidden;
+	padding: 0 1rem;
 	position: relative;
 	text-align: center;
+	text-decoration: none;
 
 	span {
 		display: block;
