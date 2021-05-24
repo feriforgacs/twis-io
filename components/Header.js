@@ -7,7 +7,7 @@ export default function Header() {
 			<div className="logo">
 				<Link href="/">
 					<a>
-						<Image src="/twis-logo.png" alt="twis logo" width={50} height={50} />
+						<Image src="/twis-logo.png" alt="twis logo" width={30} height={30} />
 						<span className="font--mulish">twis</span>
 					</a>
 				</Link>
