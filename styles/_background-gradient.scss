@@ -1,0 +1,36 @@
+#background-gradient {
+	min-height: 100vh;
+	left: 0;
+	overflow-x: hidden;
+	position: absolute;
+	top: 0;
+	width: 100vw;
+
+	.gradient {
+		min-height: 100px;
+		position: absolute;
+		min-width: 100px;
+
+		&--1 {
+			background: linear-gradient(180deg, #5a38fd 0%, #1c124c 100%);
+			mix-blend-mode: normal;
+			filter: blur(100px);
+			left: -100vw;
+			height: 100vh;
+			width: 300vw;
+		}
+
+		&--2 {
+			background: linear-gradient(180deg, #0ae7f5 0%, #a30fbb 100%);
+			mix-blend-mode: normal;
+			filter: blur(100px);
+			transform: rotate(136.06deg);
+		}
+
+		&--3 {
+			background: linear-gradient(180deg, #a30fbb 0%, #1c124c 100%);
+			mix-blend-mode: normal;
+			filter: blur(200px);
+		}
+	}
+}

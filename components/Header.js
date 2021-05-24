@@ -21,7 +21,7 @@ export default function Header() {
 					</li>
 
 					<li>
-						<Link href="examples">
+						<Link href="/examples">
 							<a>Examples</a>
 						</Link>
 					</li>
