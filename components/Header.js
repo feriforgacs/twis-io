@@ -7,7 +7,7 @@ export default function Header() {
 
 	return (
 		<header id="header">
-			<button className="btn btn--nav-open" onClick={() => setNavVisible(!navVisible)}>
+			<button className="btn nav-btn nav-btn--nav-open" onClick={() => setNavVisible(!navVisible)}>
 				<span>&#9776;</span>
 			</button>
 			<div className="logo">
@@ -18,7 +18,7 @@ export default function Header() {
 					</a>
 				</Link>
 			</div>
-			<nav className={`${navVisible ? "visible" : ""}`}>
+			<nav className={`nav--primary ${navVisible ? "visible" : ""}`}>
 				<ul>
 					<li>
 						<Link href="/features">
@@ -44,9 +44,19 @@ export default function Header() {
 						</Link>
 					</li>
 				</ul>
-				<button className="btn btn--primary btn--nav-close" onClick={() => setNavVisible(!navVisible)}>
+				<button className="btn btn--primary nav-btn nav-btn--nav-close" onClick={() => setNavVisible(!navVisible)}>
 					<span>&times;</span>
 				</button>
+			</nav>
+
+			<nav className="nav--secondary">
+				<ul>
+					<li>
+						<a href="https://app.twis.io" className="btn btn--primary">
+							Try now
+						</a>
+					</li>
+				</ul>
 			</nav>
 		</header>
 	);

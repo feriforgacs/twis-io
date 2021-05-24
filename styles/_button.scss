@@ -1,22 +1,23 @@
-.btn{
+.btn {
 	background: rgba(28, 18, 77, 0.5);
 	border: none;
 	display: block;
+	position: relative;
 	text-align: center;
 
-	span{
+	span {
 		display: block;
 		height: 100%;
 		width: 100%;
 	}
 
-	&--primary{
-		background: linear-gradient(103.65deg, #A30FBB 26.04%, #CE0A16 78.62%);
+	&--primary {
+		background: linear-gradient(103.65deg, #a30fbb 26.04%, #ce0a16 78.62%);
 		color: #fff;
 		mix-blend-mode: normal;
 
-		&:after{
-			background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+		&:after {
+			background: linear-gradient(180deg, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
 			mix-blend-mode: overlay;
 			filter: blur(4px);
 			content: "";
