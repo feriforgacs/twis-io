@@ -1,5 +1,5 @@
 #hero {
-	padding: 4rem 1rem 2rem;
+	padding: 8rem 1rem 2rem;
 	position: relative;
 	z-index: 10;
 
@@ -18,5 +18,9 @@
 		margin: 0;
 		padding: 0;
 		text-align: center;
+	}
+
+	.btn {
+		margin: 2rem auto;
 	}
 }

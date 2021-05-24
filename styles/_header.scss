@@ -1,10 +1,13 @@
 #header {
 	align-items: center;
+	box-sizing: border-box;
 	display: flex;
 	justify-content: space-between;
 	padding: 1rem;
-	position: relative;
+	position: fixed;
+	width: 100%;
 	z-index: 20;
+	backdrop-filter: blur(10px);
 
 	.logo {
 		font-size: 1.3rem;
@@ -27,7 +30,7 @@
 	nav {
 		&.nav--primary {
 			background: linear-gradient(180deg, #a30fbb 0%, #1c124c 100%);
-			height: 100%;
+			height: 100vh;
 			left: 0;
 			opacity: 0;
 			overflow-y: auto;

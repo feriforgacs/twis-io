@@ -3,6 +3,7 @@
 @import "header";
 @import "hero";
 @import "background-gradient";
+@import "mockup";
 @import "utility";
 
 html,
@@ -12,5 +13,6 @@ body {
 	font-family: "Open Sans", sans-serif;
 	font-size: 18px;
 	margin: 0;
+	overflow-x: hidden;
 	padding: 0;
 }
