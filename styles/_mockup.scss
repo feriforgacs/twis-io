@@ -1,13 +1,39 @@
 #mockup {
 	background-color: #fff;
-	background-image: url(/twis-demo-image.png);
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-size: cover;
 	border: 10px solid #fff;
 	border-radius: 43px;
 	box-sizing: border-box;
-	height: 640px;
-	width: 360px;
+	height: 812px;
+	position: relative;
+	width: 375px;
 	transform: scale(0.7) rotate(8.25deg);
+
+	&::before {
+		background: #fff;
+		border-radius: 230px;
+		content: "";
+		display: block;
+		height: 460px;
+		left: -50px;
+		mix-blend-mode: overlay;
+		opacity: 0.5;
+		position: absolute;
+		top: 200px;
+		width: 460px;
+		z-index: 1;
+	}
+
+	&::after {
+		background-image: url(/twis-demo-image.png);
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		border-radius: 38px;
+		content: "";
+		display: block;
+		height: 100%;
+		position: absolute;
+		width: 100%;
+		z-index: 2;
+	}
 }
