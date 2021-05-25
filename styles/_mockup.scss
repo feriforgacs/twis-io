@@ -2,24 +2,26 @@
 	background-color: #fff;
 	border: 10px solid #fff;
 	border-radius: 43px;
+	box-shadow: 30px -30px 200px #46116e;
 	box-sizing: border-box;
-	height: 812px;
+	height: 600px;
+	margin: 0 auto;
 	position: relative;
-	width: 375px;
-	transform: scale(0.7) rotate(8.25deg);
+	width: 277px;
+	transform: scale(1);
 
 	&::before {
-		background: #fff;
-		border-radius: 230px;
+		background: linear-gradient(90deg, #6c209c 0%, #44d3ef 100%);
+		border-radius: 200px;
 		content: "";
 		display: block;
-		height: 460px;
+		height: 400px;
 		left: -50px;
 		mix-blend-mode: overlay;
 		opacity: 0.5;
 		position: absolute;
-		top: 200px;
-		width: 460px;
+		top: 100px;
+		width: 400px;
 		z-index: 1;
 	}
 
