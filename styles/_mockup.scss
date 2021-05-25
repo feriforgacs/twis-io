@@ -1,6 +1,13 @@
 #mockup {
-	background: #fff;
+	background-color: #fff;
+	background-image: url(/twis-demo-image.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 10px solid #fff;
 	border-radius: 43px;
+	box-sizing: border-box;
 	height: 640px;
 	width: 360px;
+	transform: scale(0.7) rotate(8.25deg);
 }
