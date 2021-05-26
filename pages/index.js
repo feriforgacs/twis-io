@@ -14,6 +14,32 @@ export default function Home() {
 			<div id="mockup">
 				<div id="mockup__body"></div>
 			</div>
+
+			<div id="benefits">
+				<div className="benefit">
+					<span className="benefit__icon">🚀</span>
+					<div className="benefit__description">
+						<h3>Benefit title</h3>
+						<p>This is the short description of the benefit</p>
+					</div>
+				</div>
+
+				<div className="benefit">
+					<span className="benefit__icon">⚡</span>
+					<div className="benefit__description">
+						<h3>Great for social media</h3>
+						<p>This is the short description of the benefit</p>
+					</div>
+				</div>
+
+				<div className="benefit">
+					<span className="benefit__icon">✨</span>
+					<div className="benefit__description">
+						<h3>Something else as well</h3>
+						<p>This is the short description of the benefit</p>
+					</div>
+				</div>
+			</div>
 		</Layout>
 	);
 }
