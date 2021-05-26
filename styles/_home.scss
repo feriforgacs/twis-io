@@ -124,3 +124,45 @@
 		}
 	}
 }
+
+#benefits {
+	padding: 1rem;
+
+	.benefit {
+		align-items: center;
+		display: flex;
+		padding: 1rem 0;
+		position: relative;
+
+		&__icon {
+			margin: 0 1rem;
+			font-size: 1.5rem;
+		}
+
+		&__description {
+			line-height: 150%;
+
+			&::after {
+				background: linear-gradient(180deg, #a30fbb 0%, #1c124c 100%);
+				bottom: 0;
+				content: "";
+				display: block;
+				height: 2px;
+				margin-top: 1rem;
+				width: 100%;
+			}
+
+			h3 {
+				font-size: 1rem;
+				margin: 0;
+				padding: 0;
+			}
+
+			p {
+				font-size: 1rem;
+				padding: 0;
+				margin: 0;
+			}
+		}
+	}
+}
