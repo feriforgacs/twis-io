@@ -11,7 +11,9 @@ export default function Home() {
 				</a>
 			</div>
 
-			<div id="mockup"></div>
+			<div id="mockup">
+				<div id="mockup__body"></div>
+			</div>
 		</Layout>
 	);
 }
