@@ -7,12 +7,6 @@ export default function Header() {
 
 	return (
 		<>
-			<div id="background-gradient">
-				<div className="gradient gradient--1"></div>
-				<div className="gradient gradient--2"></div>
-				<div className="gradient gradient--3"></div>
-			</div>
-
 			<header id="header">
 				<button className="btn nav-btn nav-btn--nav-open" onClick={() => setNavVisible(!navVisible)}>
 					<span>&#9776;</span>

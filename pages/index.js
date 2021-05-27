@@ -20,30 +20,32 @@ const benefits = [
 	{
 		icon: "🙅‍♀️",
 		title: "No coding skills needed",
-		description: "Thanks to the drag & drop campaign builder everyone can set up a twis campaign without the help of a developer",
+		description: "Thanks to the drag & drop campaign builder everyone can set up a campaign without the help of a developer",
 	},
 ];
 
 export default function Home() {
 	return (
 		<Layout>
-			<div id="hero">
-				<h1 className="font--mulish">Grow your database with story-like experiences</h1>
-				<h2>Twis helps you create experiences that are more in line with the story format so you can grow your database in a fun and more engaging way.</h2>
+			<div id="home">
+				<div id="hero">
+					<h1 className="font--mulish">Grow your database with story-like experiences</h1>
+					<h2>Twis helps you create experiences that are more in line with the story format so you can grow your database in a fun and more engaging way.</h2>
 
-				<a href="https://app.twis.io" className="btn btn--primary btn--large">
-					Try for free
-				</a>
-			</div>
+					<a href="https://app.twis.io" className="btn btn--primary btn--large">
+						Try for free
+					</a>
+				</div>
 
-			<div id="mockup">
-				<div id="mockup__body"></div>
-			</div>
+				<div id="mockup">
+					<div id="mockup__body"></div>
+				</div>
 
-			<div id="benefits">
-				{benefits.map((benefit, index) => (
-					<Benefit key={index} icon={benefit.icon} title={benefit.title} description={benefit.description} />
-				))}
+				<div id="benefits">
+					{benefits.map((benefit, index) => (
+						<Benefit key={index} icon={benefit.icon} title={benefit.title} description={benefit.description} />
+					))}
+				</div>
 			</div>
 		</Layout>
 	);
