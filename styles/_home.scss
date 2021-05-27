@@ -141,6 +141,7 @@
 
 		&__description {
 			line-height: 150%;
+			width: 100%;
 
 			&::after {
 				background: linear-gradient(180deg, #a30fbb 0%, #1c124c 100%);
@@ -154,12 +155,12 @@
 
 			h3 {
 				font-size: 1rem;
-				margin: 0;
+				margin: 0 0 0.2rem;
 				padding: 0;
 			}
 
 			p {
-				font-size: 1rem;
+				font-size: 0.9rem;
 				padding: 0;
 				margin: 0;
 			}
