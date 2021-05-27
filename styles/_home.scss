@@ -1,5 +1,5 @@
 #home {
-	background-image: url(/header-gradient.png);
+	background-image: url(/header-gradient.jpg);
 	background-size: 300%;
 	background-position: top center;
 	background-repeat: no-repeat;
@@ -93,7 +93,9 @@
 }
 
 #benefits {
+	margin: 0 auto;
 	padding: 1rem;
+	max-width: 960px;
 
 	@media only screen and (min-width: 768px) {
 		align-items: stretch;
