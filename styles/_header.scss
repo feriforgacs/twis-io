@@ -1,13 +1,18 @@
 #header {
-	align-items: center;
 	box-sizing: border-box;
-	display: flex;
-	justify-content: space-between;
 	padding: 1rem;
 	position: fixed;
 	width: 100%;
 	z-index: 20;
 	backdrop-filter: blur(10px);
+
+	&__body {
+		align-items: center;
+		display: flex;
+		justify-content: space-between;
+		max-width: 1180px;
+		margin: 0 auto;
+	}
 
 	.logo {
 		font-size: 1.3rem;
