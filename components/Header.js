@@ -54,7 +54,8 @@ export default function Header() {
 					<ul>
 						<li>
 							<a href="https://app.twis.io" className="btn btn--primary">
-								Try now
+								<span className="hidden-on-desktop">Try now</span>
+								<span className="hidden-on-mobile">Try for free</span>
 							</a>
 						</li>
 					</ul>

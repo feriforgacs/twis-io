@@ -150,10 +150,14 @@
 				background: linear-gradient(180deg, #a30fbb 0%, #1c124c 100%);
 				top: 0;
 				content: "";
-				display: block;
+				display: none;
 				height: 2px;
 				position: absolute;
 				width: 100%;
+
+				@media only screen and (min-width: 768px) {
+					display: block;
+				}
 			}
 
 			h3 {
