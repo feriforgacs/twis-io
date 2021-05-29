@@ -131,12 +131,15 @@
 #benefits {
 	margin: 0 auto;
 	padding: 1rem;
-	max-width: 960px;
 
 	@media only screen and (min-width: 768px) {
 		align-items: stretch;
 		display: flex;
 		flex-wrap: wrap;
+	}
+
+	@media only screen and (min-width: 1200px) {
+		padding: 1rem 0;
 	}
 
 	.benefit {
