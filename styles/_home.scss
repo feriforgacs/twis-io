@@ -18,8 +18,15 @@
 	position: relative;
 	z-index: 10;
 
+	@media only screen and (min-width: 768px) {
+		padding: 0 1rem;
+	}
+
 	@media only screen and (min-width: 996px) {
 		flex: 4;
+	}
+
+	@media only screen and (min-width: 1200px) {
 		padding: 0;
 	}
 
@@ -30,10 +37,14 @@
 		padding: 0;
 		text-align: center;
 
+		@media only screen and (min-width: 768px) {
+			font-size: 2.2rem;
+			text-align: left;
+		}
+
 		@media only screen and (min-width: 996px) {
 			font-size: 3rem;
 			line-height: 4rem;
-			text-align: left;
 		}
 	}
 
@@ -45,7 +56,7 @@
 		padding: 0;
 		text-align: center;
 
-		@media only screen and (min-width: 996px) {
+		@media only screen and (min-width: 768px) {
 			text-align: left;
 		}
 	}
@@ -54,7 +65,7 @@
 		margin: 2rem auto;
 		max-width: 250px;
 
-		@media only screen and (min-width: 996px) {
+		@media only screen and (min-width: 768px) {
 			margin-left: 0;
 		}
 	}
