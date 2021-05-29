@@ -138,6 +138,10 @@
 		flex-wrap: wrap;
 	}
 
+	@media only screen and (min-width: 996px) {
+		justify-content: space-between;
+	}
+
 	@media only screen and (min-width: 1200px) {
 		padding: 1rem 0;
 	}
@@ -150,6 +154,10 @@
 
 		@media only screen and (min-width: 768px) {
 			flex: 0 0 50%;
+		}
+
+		@media only screen and (min-width: 996px) {
+			flex: 0 0 45%;
 		}
 
 		&__icon {
