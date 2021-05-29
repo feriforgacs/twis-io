@@ -18,12 +18,23 @@
 	position: relative;
 	z-index: 10;
 
+	@media only screen and (min-width: 996px) {
+		flex: 4;
+		padding: 0;
+	}
+
 	h1 {
 		font-size: 2rem;
 		line-height: 3rem;
 		margin: 0 0 2rem;
 		padding: 0;
 		text-align: center;
+
+		@media only screen and (min-width: 996px) {
+			font-size: 3rem;
+			line-height: 4rem;
+			text-align: left;
+		}
 	}
 
 	h2 {
@@ -33,20 +44,34 @@
 		margin: 0;
 		padding: 0;
 		text-align: center;
+
+		@media only screen and (min-width: 996px) {
+			text-align: left;
+		}
 	}
 
 	.btn {
 		margin: 2rem auto;
 		max-width: 250px;
+
+		@media only screen and (min-width: 996px) {
+			margin-left: 0;
+		}
 	}
 }
 
 #mockup {
 	align-items: center;
 	display: flex;
-	height: 600px;
+	height: 650px;
 	overflow-x: hidden;
 	width: 100vw;
+
+	@media only screen and (min-width: 996px) {
+		flex: 3;
+		padding-bottom: 0;
+		padding-top: 0;
+	}
 
 	&__body {
 		background-color: #fff;
@@ -172,5 +197,13 @@
 				margin: 0;
 			}
 		}
+	}
+}
+
+.container--hero-mockup {
+	@media only screen and (min-width: 768px) {
+		align-items: center;
+		display: flex;
+		padding-top: 5rem;
 	}
 }
