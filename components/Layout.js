@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Favicons from "./Favicons";
 import Header from "./Header";
+import Footer from "./Footer";
 
 export default function Layout({ children, title = "twis" }) {
 	return (
@@ -13,6 +14,7 @@ export default function Layout({ children, title = "twis" }) {
 			<Favicons />
 			<Header />
 			{children}
+			<Footer />
 		</>
 	);
 }
