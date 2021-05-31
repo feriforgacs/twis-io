@@ -3,9 +3,9 @@ import Favicons from "./Favicons";
 import Header from "./Header";
 import Footer from "./Footer";
 
-export default function Layout({ children, title = "twis" }) {
+export default function Layout({ children, title = "twis", className = "" }) {
 	return (
-		<>
+		<main className={className}>
 			<Head>
 				<title>{title}</title>
 				<link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -15,6 +15,6 @@ export default function Layout({ children, title = "twis" }) {
 			<Header />
 			{children}
 			<Footer />
-		</>
+		</main>
 	);
 }

@@ -2,13 +2,14 @@
 @import "layout";
 @import "button";
 @import "header";
+@import "footer";
 @import "home";
 @import "utility";
 
 html,
 body {
-	background: #1c124d;
-	color: #fff;
+	background: #fff;
+	color: #333;
 	font-family: "Open Sans", sans-serif;
 	font-size: 18px;
 	height: 100%;

@@ -26,7 +26,7 @@ const benefits = [
 
 export default function Home() {
 	return (
-		<Layout>
+		<Layout className="homepage">
 			<div id="home">
 				<div className="container container--hero-mockup">
 					<div id="hero">
