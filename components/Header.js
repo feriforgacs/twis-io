@@ -2,12 +2,12 @@ import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-export default function Header({ subpage = false }) {
+export default function Header() {
 	const [navVisible, setNavVisible] = useState(false);
 
 	return (
 		<>
-			<header id="header" className={subpage ? "subpage" : ""}>
+			<header id="header">
 				<div id="header__body">
 					<button className="btn nav-btn nav-btn--nav-open" onClick={() => setNavVisible(!navVisible)}>
 						<span>&#9776;</span>
