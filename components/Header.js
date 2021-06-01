@@ -15,7 +15,12 @@ export default function Header() {
 					<div className="logo">
 						<Link href="/">
 							<a>
-								<Image src="/twis-logo.png" alt="twis logo" width={30} height={30} />
+								<div className="colored">
+									<Image src="/twis-logo.png" alt="twis logo" width={30} height={30} />
+								</div>
+								<div className="black-and-white">
+									<Image src="/twis-logo-black-and-white.svg" alt="twis logo" width={30} height={30} />
+								</div>
 								<span className="font--mulish">twis</span>
 							</a>
 						</Link>

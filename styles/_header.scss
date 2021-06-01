@@ -18,6 +18,10 @@
 		font-size: 1.3rem;
 		margin-left: 2rem;
 
+		.black-and-white {
+			display: none;
+		}
+
 		@media only screen and (min-width: 768px) {
 			flex: 1;
 			margin-left: 0;
@@ -177,6 +181,48 @@
 			&:active {
 				span {
 					transform: rotate(360deg);
+				}
+			}
+		}
+	}
+}
+
+.subpage {
+	#header {
+		.logo {
+			.colored {
+				display: none;
+			}
+
+			.black-and-white {
+				display: block;
+			}
+
+			a {
+				color: #333;
+			}
+		}
+
+		.nav-btn--nav-open {
+			background: none;
+			border: 2px solid #333;
+			color: #333;
+
+			span {
+				display: block;
+				margin-top: -2px;
+			}
+		}
+
+		nav {
+			a:not(.btn) {
+				color: #333;
+			}
+			&.nav--primary {
+				background: #f7f7f7;
+
+				a {
+					border-bottom: 1px solid #eee;
 				}
 			}
 		}
