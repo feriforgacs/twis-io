@@ -20,12 +20,13 @@ export default function PrivacySidebar() {
 	const router = useRouter();
 
 	return (
-		<nav>
+		<nav className="nav--sidebar">
+			<h4>Related pages</h4>
 			<ul>
 				{sidebarLinks.map((item, index) => (
-					<li key={index} className={`${router.pathname === item.url ? "active" : ""}`}>
+					<li key={index}>
 						<Link href={item.url}>
-							<a>{item.label}</a>
+							<a className={`${router.pathname === item.url ? "active" : ""}`}>{item.label}</a>
 						</Link>
 					</li>
 				))}
