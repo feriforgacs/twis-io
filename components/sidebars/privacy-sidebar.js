@@ -1,24 +1,34 @@
 import Link from "next/link";
+import { useRouter } from "next/router";
+
+const sidebarLinks = [
+	{
+		url: "/terms-and-conditions",
+		label: "Terms and Conditions",
+	},
+	{
+		url: "/privacy-policy",
+		label: "Privacy Policy",
+	},
+	{
+		url: "/sub-processors",
+		label: "Sub-Processors",
+	},
+];
 
 export default function PrivacySidebar() {
+	const router = useRouter();
+
 	return (
 		<nav>
 			<ul>
-				<li>
-					<Link href="/terms-and-conditions">
-						<a>Terms and Conditions</a>
-					</Link>
-				</li>
-				<li>
-					<Link href="/privacy-policy">
-						<a>Privacy Policy</a>
-					</Link>
-				</li>
-				<li>
-					<Link href="/sub-processors">
-						<a>Sub-Processors</a>
-					</Link>
-				</li>
+				{sidebarLinks.map((item, index) => (
+					<li key={index} className={`${router.pathname === item.url ? "active" : ""}`}>
+						<Link href={item.url}>
+							<a>{item.label}</a>
+						</Link>
+					</li>
+				))}
 			</ul>
 		</nav>
 	);
