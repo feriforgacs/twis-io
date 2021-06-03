@@ -10,7 +10,7 @@
 		line-height: 200%;
 		margin: 0 auto;
 		max-width: 650px;
-		padding: 8rem 1rem 2rem;
+		padding: 6rem 1rem 2rem;
 
 		@media only screen and (min-width: 996px) {
 			max-width: 100%;
@@ -34,6 +34,7 @@
 		h1 {
 			border-bottom: 1px solid #eee;
 			font-size: 2rem;
+			line-height: 150%;
 			margin: 0;
 			padding: 0 0 1rem;
 		}

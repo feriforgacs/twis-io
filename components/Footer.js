@@ -9,7 +9,37 @@ export default function Footer() {
 					</p>
 				</div>
 
-				<nav className="footer__nav"></nav>
+				<nav className="footer__nav">
+					<ul>
+						<li>
+							<a href="/features">Features</a>
+						</li>
+						<li>
+							<a href="/examples">Examples</a>
+						</li>
+						<li>
+							<a href="/use-cases">Use cases</a>
+						</li>
+						<li>
+							<a href="/pricing">Pricing</a>
+						</li>
+					</ul>
+
+					<ul>
+						<li>
+							<a href="/terms-and-conditions">Terms and Conditions</a>
+						</li>
+						<li>
+							<a href="/privacy-policy">Privacy Policy</a>
+						</li>
+						<li>
+							<a href="/sub-processors">Sub-Processors</a>
+						</li>
+						<li>
+							<a href="/frequently-asked-questions">Frequently Asked Questions</a>
+						</li>
+					</ul>
+				</nav>
 			</div>
 		</footer>
 	);

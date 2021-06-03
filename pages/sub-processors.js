@@ -33,7 +33,7 @@ export default function SubprocessorsPage() {
 							<p>
 								<strong>Nature of Processing:</strong> payment processing
 								<br />
-								<strong>Territories:</strong>United Kingdom
+								<strong>Territories:</strong> United Kingdom
 							</p>
 						</div>
 
@@ -42,7 +42,7 @@ export default function SubprocessorsPage() {
 							<p>
 								<strong>Nature of Processing:</strong> error handling services
 								<br />
-								<strong>Territories:</strong>United States
+								<strong>Territories:</strong> United States
 							</p>
 						</div>
 
@@ -51,7 +51,7 @@ export default function SubprocessorsPage() {
 							<p>
 								<strong>Nature of Processing:</strong> data storage services services
 								<br />
-								<strong>Territories:</strong>United States
+								<strong>Territories:</strong> United States
 							</p>
 						</div>
 
@@ -60,7 +60,7 @@ export default function SubprocessorsPage() {
 							<p>
 								<strong>Nature of Processing:</strong> email messaging services
 								<br />
-								<strong>Territories:</strong>United States
+								<strong>Territories:</strong> United States
 							</p>
 						</div>
 					</div>
