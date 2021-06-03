@@ -1,6 +1,27 @@
-#footer {
-	background: #333;
-	color: #fff;
+.footer {
+	background: #1a0928;
+	color: #e4e0fd;
+	font-size: 0.8rem;
 	margin: 3rem auto;
 	padding: 3rem 0;
+
+	.container {
+		display: flex;
+	}
+
+	h4 {
+		color: #fff;
+		font-size: 1rem;
+		margin: 0;
+		padding: 0;
+	}
+
+	a {
+		color: #fff;
+		text-decoration: none;
+	}
+
+	&__contact {
+		flex: 1;
+	}
 }
