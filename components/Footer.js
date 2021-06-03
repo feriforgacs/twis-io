@@ -41,6 +41,10 @@ export default function Footer() {
 					</ul>
 				</nav>
 			</div>
+
+			<div className="container">
+				<p className="footer__copyright">&copy; All Rights Reserved 2021</p>
+			</div>
 		</footer>
 	);
 }

@@ -8,6 +8,10 @@
 	.container {
 		display: flex;
 		flex-direction: column;
+
+		@media only screen and (min-width: 768px) {
+			flex-direction: row;
+		}
 	}
 
 	h4 {
@@ -24,8 +28,12 @@
 
 	&__contact {
 		border-bottom: 2px solid rgba(255, 255, 255, 0.2);
-		flex: 1;
 		padding: 2rem 1rem;
+
+		@media only screen and (min-width: 768px) {
+			border-bottom: none;
+			flex: 0 0 40%;
+		}
 
 		p {
 			margin: 0;
@@ -34,7 +42,13 @@
 	}
 
 	&__nav {
+		box-sizing: border-box;
 		padding: 2rem 1rem;
+
+		@media only screen and (min-width: 768px) {
+			display: flex;
+			flex: 0 0 60%;
+		}
 
 		ul,
 		li {
@@ -46,9 +60,22 @@
 		ul {
 			margin-bottom: 2rem;
 
+			@media only screen and (min-width: 768px) {
+				flex: 0 0 45%;
+			}
+
 			&:last-child {
 				margin-bottom: 0;
 			}
 		}
+	}
+
+	&__copyright {
+		border-top: 2px solid rgba(255, 255, 255, 0.1);
+		font-size: 0.7rem;
+		margin: 0;
+		padding: 1rem 0;
+		text-align: center;
+		width: 100%;
 	}
 }
