@@ -3,6 +3,10 @@
 	font-feature-settings: "liga", "clig";
 }
 
+.hidden {
+	display: none;
+}
+
 .hidden-on-desktop {
 	@media only screen and (min-width: 768px) {
 		display: none;

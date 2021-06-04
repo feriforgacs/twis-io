@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Footer() {
 	return (
 		<footer className="footer">
@@ -12,31 +14,47 @@ export default function Footer() {
 				<nav className="footer__nav">
 					<ul>
 						<li>
-							<a href="/features">Features</a>
+							<Link href="/features">
+								<a>Features</a>
+							</Link>
 						</li>
 						<li>
-							<a href="/examples">Examples</a>
+							<Link href="/examples">
+								<a>Examples</a>
+							</Link>
 						</li>
 						<li>
-							<a href="/use-cases">Use cases</a>
+							<Link href="/use-cases">
+								<a>Use cases</a>
+							</Link>
 						</li>
 						<li>
-							<a href="/pricing">Pricing</a>
+							<Link href="/pricing">
+								<a>Pricing</a>
+							</Link>
 						</li>
 					</ul>
 
 					<ul>
 						<li>
-							<a href="/terms-and-conditions">Terms and Conditions</a>
+							<Link href="/terms-and-conditions">
+								<a>Terms and Conditions</a>
+							</Link>
 						</li>
 						<li>
-							<a href="/privacy-policy">Privacy Policy</a>
+							<Link href="/privacy-policy">
+								<a>Privacy Policy</a>
+							</Link>
 						</li>
 						<li>
-							<a href="/sub-processors">Sub-Processors</a>
+							<Link href="/sub-processors">
+								<a>Sub-Processors</a>
+							</Link>
 						</li>
 						<li>
-							<a href="/frequently-asked-questions">Frequently Asked Questions</a>
+							<Link href="/frequently-asked-questions">
+								<a>Frequently Asked Questions</a>
+							</Link>
 						</li>
 					</ul>
 				</nav>
