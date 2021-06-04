@@ -23,13 +23,21 @@ export default function PrivacySidebar() {
 		<nav className="nav--sidebar">
 			<h4>Related pages</h4>
 			<ul>
-				{sidebarLinks.map((item, index) => (
-					<li key={index}>
-						<Link href={item.url}>
-							<a className={`${router.pathname === item.url ? "active" : ""}`}>{item.label}</a>
-						</Link>
-					</li>
-				))}
+				{sidebarLinks.map((item, index) => {
+					return (
+						<>
+							{router.pathname !== item.url ? (
+								<li key={index}>
+									<Link href={item.url}>
+										<a>{item.label}</a>
+									</Link>
+								</li>
+							) : (
+								""
+							)}
+						</>
+					);
+				})}
 			</ul>
 		</nav>
 	);

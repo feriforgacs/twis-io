@@ -7,21 +7,20 @@
 	.content {
 		box-sizing: border-box;
 		display: flex;
+		flex-direction: column-reverse;
 		line-height: 200%;
 		margin: 0 auto;
 		max-width: 650px;
 		padding: 6rem 1rem 2rem;
 
 		@media only screen and (min-width: 996px) {
+			flex-direction: row;
 			max-width: 100%;
 			padding: 8rem 0;
 		}
 
 		&__sidebar {
-			display: none;
-
 			@media only screen and (min-width: 996px) {
-				display: block;
 				flex: 3;
 			}
 		}
