@@ -24,19 +24,15 @@ export default function PrivacySidebar() {
 			<h4>Related pages</h4>
 			<ul>
 				{sidebarLinks.map((item, index) => {
-					return (
-						<>
-							{router.pathname !== item.url ? (
-								<li key={index}>
-									<Link href={item.url}>
-										<a>{item.label}</a>
-									</Link>
-								</li>
-							) : (
-								""
-							)}
-						</>
-					);
+					if (router.pathname !== item.url) {
+						return (
+							<li key={index}>
+								<Link href={item.url}>
+									<a>{item.label}</a>
+								</Link>
+							</li>
+						);
+					}
 				})}
 			</ul>
 		</nav>
