@@ -90,7 +90,7 @@
 	}
 
 	&__body {
-		background-color: #fff;
+		background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
 		border: 10px solid #fff;
 		border-radius: 43px;
 		box-shadow: 30px -30px 50px #46116e;
@@ -116,19 +116,42 @@
 			width: 400px;
 			z-index: 1;
 		}
+	}
 
-		&::after {
-			background-image: url(/twis-demo-image.png);
-			background-position: center center;
-			background-repeat: no-repeat;
-			background-size: cover;
-			border-radius: 38px;
-			content: "";
-			display: block;
-			height: 100%;
-			position: absolute;
-			width: 100%;
-			z-index: 2;
+	.mockup__item {
+		position: absolute;
+
+		&--text {
+			font-size: 1.2rem;
+			font-weight: bold;
+			padding: 1rem;
+			text-align: center;
+			top: 50px;
+		}
+
+		&--image-1 {
+			left: 30px;
+			top: 180px;
+			width: 200px;
+		}
+
+		&--image-2 {
+			left: 50px;
+			top: 350px;
+			width: 150px;
+		}
+
+		&--image-3 {
+			top: 450px;
+			transform: rotate(-45deg);
+			width: 40px;
+		}
+
+		&--image-4 {
+			right: 0;
+			top: 450px;
+			transform: rotate(45deg) scaleX(-1);
+			width: 40px;
 		}
 	}
 }

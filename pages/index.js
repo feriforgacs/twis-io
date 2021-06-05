@@ -39,7 +39,16 @@ export default function Home() {
 					</div>
 
 					<div id="mockup">
-						<div id="mockup__body"></div>
+						<div id="mockup__body">
+							<p className="mockup__item mockup__item--text">Hit the start button below to try this test campaign</p>
+							<img src="https://media3.giphy.com/media/xyhfjuWVI5oN20wJ0j/giphy.gif" alt="Animated sticker that says: Let's go" className="mockup__item mockup__item--image-1" />
+							<img src="https://media0.giphy.com/media/1YfBz5TnsrqEGOJwc0/giphy.gif" alt="Animated sticker that says: Press start" className="mockup__item mockup__item--image-2" />
+							<img src="https://media3.giphy.com/media/d25jSx6Zto72XbajAR/giphy.gif" alt="Animated arrow points downwards" className="mockup__item mockup__item--image-3" />
+							<img src="https://media3.giphy.com/media/d25jSx6Zto72XbajAR/giphy.gif" alt="Animated arrow points downwards" className="mockup__item mockup__item--image-4" />
+							<a href="###TODO" className="mockup__item mockup__item--button">
+								👉 start 👈
+							</a>
+						</div>
 					</div>
 				</div>
 
