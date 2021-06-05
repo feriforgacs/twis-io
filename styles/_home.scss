@@ -131,13 +131,13 @@
 
 		&--image-1 {
 			left: 30px;
-			top: 180px;
+			top: 200px;
 			width: 200px;
 		}
 
 		&--image-2 {
 			left: 50px;
-			top: 350px;
+			top: 390px;
 			width: 150px;
 		}
 
@@ -152,6 +152,29 @@
 			top: 450px;
 			transform: rotate(45deg) scaleX(-1);
 			width: 40px;
+		}
+
+		&--button {
+			align-items: flex-end;
+			display: flex;
+			height: 100%;
+			justify-content: center;
+			text-decoration: none;
+			width: 100%;
+			z-index: 10;
+
+			span {
+				background: linear-gradient(161.74deg, #b542e6 9.18%, #886ef0 50%, #5c9afa 92.56%);
+				border-radius: 20px;
+				color: #fff;
+				display: block;
+				font-weight: bold;
+				line-height: 40px;
+				margin-bottom: 70px;
+				text-align: center;
+				text-transform: uppercase;
+				width: 170px;
+			}
 		}
 	}
 }
