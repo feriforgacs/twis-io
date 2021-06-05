@@ -45,6 +45,9 @@ export default function Home() {
 							<img src="https://media0.giphy.com/media/1YfBz5TnsrqEGOJwc0/giphy.gif" alt="Animated sticker that says: Press start" className="mockup__item mockup__item--image-2" />
 							<img src="https://media3.giphy.com/media/d25jSx6Zto72XbajAR/giphy.gif" alt="Animated arrow points downwards" className="mockup__item mockup__item--image-3" />
 							<img src="https://media3.giphy.com/media/d25jSx6Zto72XbajAR/giphy.gif" alt="Animated arrow points downwards" className="mockup__item mockup__item--image-4" />
+							<img src="https://media3.giphy.com/media/S3nZ8V9uemShxiWX8g/giphy.gif" alt="Animated sticker" className="mockup__item mockup__item--sticker-1" />
+							<img src="https://media3.giphy.com/media/dalJ0CpF7hwmN1nZXe/giphy.gif" alt="Animated sticker" className="mockup__item mockup__item--sticker-2" />
+							<img src="https://media3.giphy.com/media/lRXY41yFFi9RfNXyPN/giphy.gif" alt="Animated sticker" className="mockup__item mockup__item--sticker-3" />
 							<a href="###TODO" className="mockup__item mockup__item--button">
 								<span>👉 start 👈</span>
 							</a>
