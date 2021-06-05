@@ -90,6 +90,7 @@
 	}
 
 	&__body {
+		animation: mockupBody 500ms ease forwards;
 		background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
 		border: 10px solid #fff;
 		border-radius: 43px;
@@ -97,12 +98,15 @@
 		box-sizing: border-box;
 		height: 600px;
 		margin: 0 auto;
+		opacity: 0;
 		position: relative;
 		width: 277px;
 		z-index: 10;
-		transform: rotate(8.25deg) scale(0.8);
+		transform: rotate(18.25deg) scale(0.5);
 
 		&::before {
+			animation: mockupBefore 500ms ease forwards;
+			animation-delay: 300ms;
 			background: linear-gradient(90deg, #6c209c 0%, #44d3ef 100%);
 			border-radius: 200px;
 			content: "";
@@ -110,7 +114,7 @@
 			height: 400px;
 			left: -50px;
 			mix-blend-mode: overlay;
-			opacity: 0.5;
+			opacity: 0;
 			position: absolute;
 			top: 100px;
 			width: 400px;
@@ -280,5 +284,30 @@
 		align-items: center;
 		display: flex;
 		padding-top: 5rem;
+	}
+}
+
+@keyframes mockupBefore {
+	0% {
+		opacity: 0;
+		transform: scale(0);
+	}
+	80% {
+		opacity: 0.5;
+		transform: scale(1.2);
+	}
+	100% {
+		opacity: 0.5;
+		transform: scale(1);
+	}
+}
+
+@keyframes mockupBody {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+		transform: rotate(8.25deg) scale(0.8);
 	}
 }
