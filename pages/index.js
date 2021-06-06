@@ -1,5 +1,6 @@
 import Layout from "../components/Layout";
-import Benefit from "../components/Benefit";
+import Benefit from "../components/home/Benefit";
+import Pricing from "../components/home/Pricing";
 
 const benefits = [
 	{
@@ -61,6 +62,10 @@ export default function Home() {
 							<Benefit key={index} icon={benefit.icon} title={benefit.title} description={benefit.description} />
 						))}
 					</div>
+				</div>
+
+				<div className="container">
+					<Pricing />
 				</div>
 			</div>
 		</Layout>
