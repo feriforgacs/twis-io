@@ -376,7 +376,7 @@
 }
 
 #pricing {
-	margin: 6rem auto;
+	margin: 3rem auto;
 
 	h3 {
 		font-size: 3rem;
@@ -435,6 +435,88 @@
 				font-size: 0.7rem;
 				font-weight: normal;
 				padding-left: 0.5rem;
+			}
+		}
+	}
+
+	&__options {
+		margin: 3rem auto;
+
+		@media only screen and (min-width: 1100px) {
+			display: flex;
+		}
+
+		.pricing-option {
+			line-height: 200%;
+			margin: 0 auto 2rem;
+			max-width: 340px;
+			position: relative;
+			width: 100%;
+
+			&__body {
+				background: #1c124d;
+				border-radius: 1.8rem;
+				margin: 0.25rem;
+				padding: 1rem;
+				position: relative;
+				z-index: 10;
+			}
+
+			h4 {
+				border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+				font-size: 1rem;
+				margin: 0 0 1rem;
+				padding: 0 0 0.5rem;
+			}
+
+			&__price {
+				.price {
+					color: #2efb88;
+					font-size: 1.5rem;
+				}
+
+				.term {
+					font-size: 0.8rem;
+				}
+			}
+
+			&__vat-info {
+				font-size: 0.8rem;
+				margin: 0.5rem 0;
+				opacity: 0.5;
+				padding: 0;
+			}
+
+			&__features {
+				margin: 0;
+				list-style-type: none;
+				padding: 0;
+
+				li {
+					background-image: url("/icon--check.svg");
+					background-position: 0 7px;
+					background-repeat: no-repeat;
+					margin: 0;
+					padding: 0 0 0 2rem;
+				}
+			}
+
+			&::before {
+				background: linear-gradient(45deg, #fa8bff 0%, #2bd2ff 52%, #2bff88 90%);
+				border-radius: 2rem;
+				content: "";
+				display: block;
+				height: calc(100% + 0.5rem);
+				left: 0;
+				position: absolute;
+				top: -0.25rem;
+				width: 100%;
+				z-index: 0;
+
+				@media only screen and(min-width: 1100px) {
+					top: -0.05rem;
+					height: calc(100% + 0.1rem);
+				}
 			}
 		}
 	}

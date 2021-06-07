@@ -4,7 +4,35 @@
 	position: fixed;
 	width: 100%;
 	z-index: 20;
-	backdrop-filter: blur(10px);
+
+	@supports (backdrop-filter: blur(10px)) {
+		backdrop-filter: blur(10px);
+	}
+
+	@supports not (backdrop-filter: blur(10px)) {
+		&::before {
+			background-image: url(/header-gradient.jpg);
+			background-size: 300%;
+			background-position: top center;
+			background-repeat: no-repeat;
+
+			@media only screen and (min-width: 768px) {
+				background-size: 200%;
+			}
+
+			@media only screen and (min-width: 996px) {
+				background-size: cover;
+			}
+			content: "";
+			display: block;
+			height: 100%;
+			left: 0;
+			position: absolute;
+			top: 0;
+			width: 100%;
+			z-index: 1;
+		}
+	}
 
 	&__body {
 		align-items: center;

@@ -6,27 +6,25 @@ export default function Pricing() {
 
 	const pricingOptions = [
 		{
-			basic: {
-				name: "👍 Basic",
-				priceMonthly: "$29",
-				priceYearly: "$23",
-				participantLimit: 100,
-				overagesCost: "$0.25",
-			},
-			pro: {
-				name: "⭐ Pro",
-				priceMonthly: "$49",
-				priceYearly: "$39",
-				participantLimit: 1000,
-				overagesCost: "$0.05",
-			},
-			premium: {
-				name: "🚀 Premium",
-				priceMonthly: "$69",
-				priceYearly: "$55",
-				participantLimit: 10000,
-				overagesCost: "$0.008",
-			},
+			name: "👍 Basic",
+			priceMonthly: "$29",
+			priceYearly: "$23",
+			participantLimit: 100,
+			overagesCost: "$0.25",
+		},
+		{
+			name: "⭐ Pro",
+			priceMonthly: "$49",
+			priceYearly: "$39",
+			participantLimit: 1000,
+			overagesCost: "$0.05",
+		},
+		{
+			name: "🚀 Premium",
+			priceMonthly: "$69",
+			priceYearly: "$55",
+			participantLimit: 10000,
+			overagesCost: "$0.008",
 		},
 	];
 
@@ -41,7 +39,9 @@ export default function Pricing() {
 			</div>
 
 			<div id="pricing__options">
-				<PricingOption term={term} name="👍 Basic" price="$29" participantLimit="100" overagesCost="$0.25" />
+				{pricingOptions.map((option, index) => (
+					<PricingOption key={index} term={term} name={option.name} price={term === "monthly" ? option.priceMonthly : option.priceYearly} participantLimit={option.participantLimit} overagesCost={option.overagesCost} />
+				))}
 			</div>
 		</div>
 	);
