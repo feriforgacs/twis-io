@@ -20,7 +20,7 @@
 		color: #fff;
 		mix-blend-mode: normal;
 
-		&:after {
+		&::after {
 			background: linear-gradient(180deg, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
 			mix-blend-mode: overlay;
 			filter: blur(4px);
@@ -33,11 +33,29 @@
 			top: 0;
 			width: 100%;
 		}
+
+		&:hover {
+			&::after {
+				animation: primaryButtonHover 1500ms ease infinite;
+			}
+		}
 	}
 
 	&--large {
 		font-size: 1.333331rem;
 		height: 3.3333rem;
 		line-height: 3.3333rem;
+	}
+}
+
+@keyframes primaryButtonHover {
+	0% {
+		background-size: 100% 100%;
+	}
+	50% {
+		background-size: 200% 200%;
+	}
+	100% {
+		background-size: 100% 100%;
 	}
 }

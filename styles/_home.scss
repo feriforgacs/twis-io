@@ -503,6 +503,7 @@
 
 			&::before {
 				background: linear-gradient(45deg, #fa8bff 0%, #2bd2ff 52%, #2bff88 90%);
+				background-size: 200% 200%;
 				border-radius: 2rem;
 				content: "";
 				display: block;
@@ -518,6 +519,12 @@
 					height: 100%;
 				}
 			}
+
+			&:hover {
+				&::before {
+					animation: gradientAnimation 1500ms ease infinite;
+				}
+			}
 		}
 	}
 
@@ -530,5 +537,23 @@
 			padding: 0;
 			text-align: center;
 		}
+	}
+}
+
+@keyframes gradientAnimation {
+	0% {
+		background-position: 0 0;
+	}
+	25% {
+		background-position: -50% 0;
+	}
+	50% {
+		background-position: -100% -25%;
+	}
+	75% {
+		background-position: -20% -75%;
+	}
+	100% {
+		background-position: 0 0;
 	}
 }
