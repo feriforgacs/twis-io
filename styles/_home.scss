@@ -520,4 +520,15 @@
 			}
 		}
 	}
+
+	&__cta {
+		margin: 0 auto;
+		max-width: 340px;
+
+		p {
+			margin: 0.5rem auto;
+			padding: 0;
+			text-align: center;
+		}
+	}
 }

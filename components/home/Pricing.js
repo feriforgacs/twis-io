@@ -43,6 +43,15 @@ export default function Pricing() {
 					<PricingOption key={index} term={term} name={option.name} price={term === "monthly" ? option.priceMonthly : option.priceYearly} participantLimit={option.participantLimit} overagesCost={option.overagesCost} />
 				))}
 			</div>
+
+			<div id="pricing__cta">
+				<a href="https://app.twis.io" className="btn btn--primary btn--large">
+					Try for free
+				</a>
+				<p>
+					<small>No credit card required</small>
+				</p>
+			</div>
 		</div>
 	);
 }
