@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Layout from "../components/Layout";
 import Benefit from "../components/home/Benefit";
 import Pricing from "../components/home/Pricing";
@@ -42,7 +43,14 @@ export default function Home() {
 					<div id="mockup">
 						<div id="mockup__body">
 							<p className="mockup__item mockup__item--text">Hit the start button below to try a twis experience</p>
-							<img src="https://media3.giphy.com/media/xyhfjuWVI5oN20wJ0j/giphy.gif" alt="Animated sticker that says: Let's go" className="mockup__item mockup__item--image-1" />
+							<div className="mockup__item mockup__item--image-1">
+								<Image src="/lets-go.gif" layout="fill" />
+							</div>
+
+							<div className="mockup__item mockup__item--image-2">
+								<Image src="/press-start.gif" layout="fill" />
+							</div>
+
 							<img src="https://media0.giphy.com/media/1YfBz5TnsrqEGOJwc0/giphy.gif" alt="Animated sticker that says: Press start" className="mockup__item mockup__item--image-2" />
 							<img src="https://media3.giphy.com/media/d25jSx6Zto72XbajAR/giphy.gif" alt="Animated arrow points downwards" className="mockup__item mockup__item--image-3" />
 							<img src="https://media3.giphy.com/media/d25jSx6Zto72XbajAR/giphy.gif" alt="Animated arrow points downwards" className="mockup__item mockup__item--image-4" />
