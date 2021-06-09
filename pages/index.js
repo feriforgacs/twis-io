@@ -59,15 +59,11 @@ export default function Home() {
 								<Image src="/pointing-arrow.gif" width={40} height={50} />
 							</div>
 
-							<div className="mockup__item mockup__item--sticker-1">
-								<Image src="/party-popper.gif" width={150} height={150} />
-							</div>
+							<div className="mockup__item mockup__item--sticker-1"></div>
 
 							<div className="mockup__item mockup__item--sticker-2"></div>
 
-							<div className="mockup__item mockup__item--sticker-3">
-								<Image src="/thumbs-up.gif" width={150} height={150} />
-							</div>
+							<div className="mockup__item mockup__item--sticker-3"></div>
 
 							<a href="###TODO" className="mockup__item mockup__item--button">
 								<span>👉 start 👈</span>
