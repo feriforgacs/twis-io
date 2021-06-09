@@ -176,6 +176,16 @@
 			transform: scale(0);
 			width: 150px;
 			z-index: 20;
+
+			&::after {
+				animation: sticker2Sprite 1.5s steps(48) infinite;
+				background: url(/heart-eyes-sprite.png);
+				background-size: 7200px;
+				content: "";
+				display: block;
+				height: 150px;
+				width: 150px;
+			}
 		}
 
 		&--sticker-3 {
@@ -265,6 +275,12 @@
 		left: -170px;
 		top: 70%;
 		transform: scale(1);
+	}
+}
+
+@keyframes sticker2Sprite {
+	to {
+		background-position: -7200px;
 	}
 }
 

@@ -44,19 +44,31 @@ export default function Home() {
 						<div id="mockup__body">
 							<p className="mockup__item mockup__item--text">Hit the start button below to try a twis experience</p>
 							<div className="mockup__item mockup__item--image-1">
-								<Image src="/lets-go.gif" layout="fill" />
+								<Image src="/lets-go.gif" width={200} height={168} />
 							</div>
 
 							<div className="mockup__item mockup__item--image-2">
-								<Image src="/press-start.gif" layout="fill" />
+								<Image src="/press-start.gif" width={150} height={56} />
 							</div>
 
-							<img src="https://media0.giphy.com/media/1YfBz5TnsrqEGOJwc0/giphy.gif" alt="Animated sticker that says: Press start" className="mockup__item mockup__item--image-2" />
-							<img src="https://media3.giphy.com/media/d25jSx6Zto72XbajAR/giphy.gif" alt="Animated arrow points downwards" className="mockup__item mockup__item--image-3" />
-							<img src="https://media3.giphy.com/media/d25jSx6Zto72XbajAR/giphy.gif" alt="Animated arrow points downwards" className="mockup__item mockup__item--image-4" />
-							<img src="https://media3.giphy.com/media/S3nZ8V9uemShxiWX8g/giphy.gif" alt="Animated sticker" className="mockup__item mockup__item--sticker-1" />
-							<img src="https://media3.giphy.com/media/dalJ0CpF7hwmN1nZXe/giphy.gif" alt="Animated sticker" className="mockup__item mockup__item--sticker-2" />
-							<img src="https://media3.giphy.com/media/lRXY41yFFi9RfNXyPN/giphy.gif" alt="Animated sticker" className="mockup__item mockup__item--sticker-3" />
+							<div className="mockup__item mockup__item--image-3">
+								<Image src="/pointing-arrow.gif" width={40} height={50} />
+							</div>
+
+							<div className="mockup__item mockup__item--image-4">
+								<Image src="/pointing-arrow.gif" width={40} height={50} />
+							</div>
+
+							<div className="mockup__item mockup__item--sticker-1">
+								<Image src="/party-popper.gif" width={150} height={150} />
+							</div>
+
+							<div className="mockup__item mockup__item--sticker-2"></div>
+
+							<div className="mockup__item mockup__item--sticker-3">
+								<Image src="/thumbs-up.gif" width={150} height={150} />
+							</div>
+
 							<a href="###TODO" className="mockup__item mockup__item--button">
 								<span>👉 start 👈</span>
 							</a>
