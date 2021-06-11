@@ -82,6 +82,26 @@ export default function Home() {
 				</div>
 
 				<div className="container">
+					<div id="callout-blocks">
+						<div className="callout">
+							<div className="callout__text">
+								<h3 className="title">The experience that's in line with the mobile spirit</h3>
+								<p className="description">TODO</p>
+							</div>
+							<div className="callout__illustration">TODO</div>
+						</div>
+					</div>
+
+					<div className="callout">
+						<div className="callout__text">
+							<h3 className="title">Engage, educate, build awareness and grow your customer base</h3>
+							<p className="description">TODO</p>
+						</div>
+						<div className="callout__illustration">TODO</div>
+					</div>
+				</div>
+
+				<div className="container">
 					<Pricing />
 				</div>
 			</div>
