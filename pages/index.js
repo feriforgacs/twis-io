@@ -1,4 +1,3 @@
-import Head from "next/head";
 import Image from "next/image";
 import Layout from "../components/Layout";
 import Benefit from "../components/home/Benefit";
@@ -6,22 +5,22 @@ import Pricing from "../components/home/Pricing";
 
 const benefits = [
 	{
-		icon: "📱",
+		icon: "emoji--mobile-phone.png",
 		title: "Optimized for mobile",
 		description: "As stories were designed for mobile, experiences created with twis work best on mobile",
 	},
 	{
-		icon: "👍",
+		icon: "emoji--thumbs-up.png",
 		title: "Great for social",
 		description: "Twis experiences are great fit for social campaigns thanks to the high adaptation of the story format in social media",
 	},
 	{
-		icon: "✨",
+		icon: "emoji--sparkles.png",
 		title: "High engagement, fun experience",
 		description: "Compared to traditional formats, twis campaigns are fun to use and they generate higher engagement rates",
 	},
 	{
-		icon: "🙅‍♀️",
+		icon: "emoji--woman-no.png",
 		title: "No coding skills needed",
 		description: "Thanks to the drag & drop campaign builder everyone can set up a campaign without the help of a developer",
 	},
@@ -88,7 +87,11 @@ export default function Home() {
 								<h3 className="title">The experience that's in line with the mobile spirit</h3>
 								<p className="description">TODO</p>
 							</div>
-							<div className="callout__illustration">TODO</div>
+							<div className="callout__illustration">
+								Display TikTok in feed ad » Display twis app
+								<br />
+								Display Instagram Story ad » Display twis app
+							</div>
 						</div>
 					</div>
 
@@ -97,7 +100,7 @@ export default function Home() {
 							<h3 className="title">Engage, educate, build awareness and grow your customer base</h3>
 							<p className="description">TODO</p>
 						</div>
-						<div className="callout__illustration">TODO</div>
+						<div className="callout__illustration">Display twis app start screen » info screen with educational content / or question with edicational content » data collection form </div>
 					</div>
 				</div>
 
