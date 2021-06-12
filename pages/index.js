@@ -2,6 +2,7 @@ import Image from "next/image";
 import Layout from "../components/Layout";
 import Benefit from "../components/home/Benefit";
 import Pricing from "../components/home/Pricing";
+import CalloutSlider from "../components/home/CalloutSlider";
 
 const benefits = [
 	{
@@ -72,7 +73,7 @@ export default function Home() {
 					</div>
 				</div>
 
-				<div className="container">
+				<div className="container container--benefits">
 					<div id="benefits">
 						{benefits.map((benefit, index) => (
 							<Benefit key={index} icon={benefit.icon} title={benefit.title} description={benefit.description} />
@@ -80,18 +81,14 @@ export default function Home() {
 					</div>
 				</div>
 
-				<div className="container">
+				<div className="container container--callout-blocks">
 					<div id="callout-blocks">
 						<div className="callout">
 							<div className="callout__text">
 								<h3 className="title">The experience that's in line with the mobile spirit</h3>
 								<p className="description">TODO</p>
 							</div>
-							<div className="callout__illustration">
-								Display TikTok in feed ad » Display twis app
-								<br />
-								Display Instagram Story ad » Display twis app
-							</div>
+							<CalloutSlider />
 						</div>
 					</div>
 
@@ -104,7 +101,7 @@ export default function Home() {
 					</div>
 				</div>
 
-				<div className="container">
+				<div className="container container--pricing">
 					<Pricing />
 				</div>
 			</div>
