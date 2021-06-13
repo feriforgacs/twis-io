@@ -2,7 +2,6 @@ import Image from "next/image";
 import Layout from "../components/Layout";
 import Benefit from "../components/home/Benefit";
 import Pricing from "../components/home/Pricing";
-import CalloutSlider from "../components/home/CalloutSlider";
 
 const benefits = [
 	{
@@ -88,7 +87,19 @@ export default function Home() {
 								<h3 className="title">The experience that's in line with the mobile spirit</h3>
 								<p className="description">TODO</p>
 							</div>
-							<CalloutSlider />
+							<div className="callout__illustration">
+								<div className="illustration__col">
+									<Image src="/tiktok-icon.png" width={100} height={100} />
+									<p>TikTok in-feed ad</p>
+									<Image src="/tiktok-sample.png" layout="fill" />
+								</div>
+
+								<div className="illusration__col">
+									<Image src="/twis-icon.png" width={100} height={100} />
+									<p>twis experience</p>
+									<Image src="/tiktok-twis-sample.png" layout="fill" />
+								</div>
+							</div>
 						</div>
 					</div>
 
