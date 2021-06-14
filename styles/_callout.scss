@@ -1,9 +1,20 @@
 .callout {
+	margin: 3rem auto;
 	padding: 1rem;
 	position: relative;
 
+	@media only screen and (min-width: 1024px) {
+		align-items: center;
+		display: flex;
+	}
+
 	&__text {
 		text-align: center;
+
+		@media only screen and (min-width: 1024px) {
+			flex: 0 0 50%;
+			text-align: left;
+		}
 
 		.title {
 			font-size: 1.3rem;
@@ -15,6 +26,11 @@
 	&__illustration {
 		display: flex;
 		justify-content: space-between;
+		position: relative;
+
+		@media only screen and (min-width: 1024px) {
+			flex: 0 0 50%;
+		}
 
 		.illustration__col {
 			flex: 0 0 45%;
@@ -30,9 +46,14 @@
 		.illustration__image {
 			border-radius: 10px;
 			margin: 0 auto;
-			max-width: 300px;
+			max-width: 200px;
 			padding: 5px;
 			position: relative;
+			transition: all 200ms ease-in;
+
+			&:hover {
+				transform: rotate(5deg) scale(1.05);
+			}
 
 			img {
 				border-radius: 7px;
@@ -54,10 +75,12 @@
 		margin-bottom: 3rem;
 
 		&__animated-arrow {
-			bottom: -30px;
+			bottom: -40px;
+			height: 50px;
 			left: calc(50% - 20px);
 			position: absolute;
-			transform: rotate(120deg);
+			transform: rotate(-120deg);
+			width: 40px;
 		}
 	}
 }

@@ -109,12 +109,12 @@ export default function Home() {
 								</div>
 
 								<div className="callout--tiktok__animated-arrow">
-									<Image src="/pointing-arrow.gif" width={40} height={50} />
+									<Image src="/pointing-arrow.gif" width={120} height={150} />
 								</div>
 							</div>
 						</div>
 					</div>
-
+					###TODO callout Instagram story
 					<div className="callout">
 						<div className="callout__text">
 							<h3 className="title">Engage, educate, build awareness and grow your customer base</h3>
