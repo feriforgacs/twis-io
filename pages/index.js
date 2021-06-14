@@ -89,18 +89,22 @@ export default function Home() {
 							</div>
 							<div className="callout__illustration">
 								<div className="illustration__col">
-									<Image src="/tiktok-icon.png" width={100} height={100} />
+									<div className="illustration__logo">
+										<Image src="/tiktok-icon.png" layout="responsive" width={100} height={100} placeholder="blur" />
+									</div>
 									<p>TikTok in-feed ad</p>
-									<div className="illustration__image">
-										<Image src="/tiktok-sample.png" layout="fill" />
+									<div className="illustration__image illustration__image--tiktok-feed-sample">
+										<Image src="/tiktok-sample.png" layout="responsive" width={414} height={896} placeholder="blur" />
 									</div>
 								</div>
 
 								<div className="illustration__col">
-									<Image src="/twis-icon.png" width={100} height={100} />
+									<div className="illustration__logo">
+										<Image src="/twis-icon.png" layout="responsive" width={100} height={100} placeholder="blur" />
+									</div>
 									<p>twis experience</p>
-									<div className="illustration__image">
-										<Image src="/tiktok-twis-sample.png" layout="fill" />
+									<div className="illustration__image illustration__image--tiktok-twis-sample">
+										<Image src="/tiktok-twis-sample.png" layout="responsive" width={414} height={896} placeholder="blur" />
 									</div>
 								</div>
 							</div>

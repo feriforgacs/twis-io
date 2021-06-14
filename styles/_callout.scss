@@ -13,11 +13,34 @@
 	}
 
 	&__illustration {
+		display: flex;
+		justify-content: space-between;
+
 		.illustration__col {
+			flex: 0 0 45%;
+			font-size: 0.8rem;
+			text-align: center;
+		}
+
+		.illustration__logo {
+			margin: 0 auto;
+			width: 40px;
 		}
 
 		.illustration__image {
+			margin: 0 auto;
+			max-width: 300px;
 			position: relative;
+
+			&--tiktok-feed-sample {
+				border: 10px solid #00ff57;
+				border-radius: 10px;
+				filter: drop-shadow(0px 4px 20px #00ff57);
+
+				img {
+					border-radius: 10px;
+				}
+			}
 		}
 	}
 }
