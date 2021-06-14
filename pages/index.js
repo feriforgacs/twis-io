@@ -82,7 +82,7 @@ export default function Home() {
 
 				<div className="container container--callout-blocks">
 					<div id="callout-blocks">
-						<div className="callout">
+						<div className="callout callout--tiktok">
 							<div className="callout__text">
 								<h3 className="title">The experience that's in line with the mobile spirit</h3>
 								<p className="description">TODO</p>
@@ -106,6 +106,10 @@ export default function Home() {
 									<div className="illustration__image illustration__image--tiktok-twis-sample">
 										<Image src="/tiktok-twis-sample.png" layout="responsive" width={414} height={896} placeholder="blur" />
 									</div>
+								</div>
+
+								<div className="callout--tiktok__animated-arrow">
+									<Image src="/pointing-arrow.gif" width={40} height={50} />
 								</div>
 							</div>
 						</div>

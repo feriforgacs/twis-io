@@ -28,19 +28,36 @@
 		}
 
 		.illustration__image {
+			border-radius: 10px;
 			margin: 0 auto;
 			max-width: 300px;
+			padding: 5px;
 			position: relative;
 
-			&--tiktok-feed-sample {
-				border: 10px solid #00ff57;
-				border-radius: 10px;
-				filter: drop-shadow(0px 4px 20px #00ff57);
-
-				img {
-					border-radius: 10px;
-				}
+			img {
+				border-radius: 7px;
 			}
+
+			&--tiktok-feed-sample {
+				background: #00ff57;
+				filter: drop-shadow(0px 4px 10px #00ff57);
+			}
+
+			&--tiktok-twis-sample {
+				background: #ff00a2;
+				filter: drop-shadow(0px 4px 10px #ff00a2);
+			}
+		}
+	}
+
+	&--tiktok {
+		margin-bottom: 3rem;
+
+		&__animated-arrow {
+			bottom: -30px;
+			left: calc(50% - 20px);
+			position: absolute;
+			transform: rotate(120deg);
 		}
 	}
 }
