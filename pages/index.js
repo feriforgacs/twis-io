@@ -91,13 +91,17 @@ export default function Home() {
 								<div className="illustration__col">
 									<Image src="/tiktok-icon.png" width={100} height={100} />
 									<p>TikTok in-feed ad</p>
-									<Image src="/tiktok-sample.png" layout="fill" />
+									<div className="illustration__image">
+										<Image src="/tiktok-sample.png" layout="fill" />
+									</div>
 								</div>
 
-								<div className="illusration__col">
+								<div className="illustration__col">
 									<Image src="/twis-icon.png" width={100} height={100} />
 									<p>twis experience</p>
-									<Image src="/tiktok-twis-sample.png" layout="fill" />
+									<div className="illustration__image">
+										<Image src="/tiktok-twis-sample.png" layout="fill" />
+									</div>
 								</div>
 							</div>
 						</div>
