@@ -4,7 +4,7 @@
 }
 
 #home {
-	background-image: url(/header-gradient.jpg);
+	background-image: url(/images/home/header-gradient.jpg);
 	background-size: 300%;
 	background-position: top center;
 	background-repeat: no-repeat;
@@ -169,7 +169,7 @@
 
 			&::after {
 				animation: sticker1Sprite 1.5s steps(48) infinite;
-				background: url(/party-popper-sprite.png);
+				background: url(/images/home/party-popper-sprite.png);
 				background-size: 7200px;
 				content: "";
 				display: block;
@@ -189,7 +189,7 @@
 
 			&::after {
 				animation: sticker2Sprite 1.5s steps(48) infinite;
-				background: url(/heart-eyes-sprite.png);
+				background: url(/images/home/heart-eyes-sprite.png);
 				background-size: 7200px;
 				content: "";
 				display: block;
@@ -209,7 +209,7 @@
 
 			&::after {
 				animation: sticker3Sprite 1.5s steps(49) infinite;
-				background: url(/thumbs-up-sprite.png);
+				background: url(/images/home/thumbs-up-sprite.png);
 				background-size: 7350px;
 				content: "";
 				display: block;
@@ -541,7 +541,7 @@
 				padding: 0;
 
 				li {
-					background-image: url("/icon--check.svg");
+					background-image: url("/images/home/icon--check.svg");
 					background-position: 0 7px;
 					background-repeat: no-repeat;
 					margin: 0;

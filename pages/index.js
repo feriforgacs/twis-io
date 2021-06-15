@@ -44,19 +44,19 @@ export default function Home() {
 						<div id="mockup__body">
 							<p className="mockup__item mockup__item--text">Hit the start button below to try a twis experience</p>
 							<div className="mockup__item mockup__item--image-1">
-								<Image src="/lets-go.gif" width={200} height={168} />
+								<Image src="/images/home/lets-go.gif" width={200} height={168} />
 							</div>
 
 							<div className="mockup__item mockup__item--image-2">
-								<Image src="/press-start.gif" width={150} height={56} />
+								<Image src="/images/home/press-start.gif" width={150} height={56} />
 							</div>
 
 							<div className="mockup__item mockup__item--image-3">
-								<Image src="/pointing-arrow.gif" width={40} height={50} />
+								<Image src="/images/home/pointing-arrow.gif" width={40} height={50} />
 							</div>
 
 							<div className="mockup__item mockup__item--image-4">
-								<Image src="/pointing-arrow.gif" width={40} height={50} />
+								<Image src="/images/home/pointing-arrow.gif" width={40} height={50} />
 							</div>
 
 							<div className="mockup__item mockup__item--sticker-1"></div>
@@ -94,26 +94,26 @@ export default function Home() {
 							<div className="callout__illustration">
 								<div className="illustration__col">
 									<div className="illustration__logo">
-										<Image src="/tiktok-icon.png" layout="responsive" width={80} height={80} placeholder="blur" />
+										<Image src="/images/home/tiktok-icon.png" layout="responsive" width={80} height={80} placeholder="blur" />
 									</div>
 									<p className="copy--small">TikTok in-feed ad</p>
 									<div className="illustration__image illustration__image--tiktok-feed-sample">
-										<Image src="/tiktok-sample.png" layout="responsive" width={414} height={896} placeholder="blur" />
+										<Image src="/images/home/tiktok-sample.png" layout="responsive" width={414} height={896} placeholder="blur" />
 									</div>
 								</div>
 
 								<div className="illustration__col">
 									<div className="illustration__logo">
-										<Image src="/twis-icon.png" layout="responsive" width={80} height={80} placeholder="blur" />
+										<Image src="/images/home/twis-icon.png" layout="responsive" width={80} height={80} placeholder="blur" />
 									</div>
 									<p className="copy--small">twis experience</p>
 									<div className="illustration__image illustration__image--tiktok-twis-sample">
-										<Image src="/tiktok-twis-sample.png" layout="responsive" width={414} height={896} placeholder="blur" />
+										<Image src="/images/home/tiktok-twis-sample.png" layout="responsive" width={414} height={896} placeholder="blur" />
 									</div>
 								</div>
 
 								<div className="callout__animated-arrow">
-									<Image src="/pointing-arrow.gif" width={120} height={150} />
+									<Image src="/images/home/pointing-arrow.gif" width={120} height={150} />
 								</div>
 							</div>
 						</div>
@@ -122,26 +122,26 @@ export default function Home() {
 							<div className="callout__illustration">
 								<div className="illustration__col">
 									<div className="illustration__logo">
-										<Image src="/instagram-icon.png" layout="responsive" width={80} height={80} placeholder="blur" />
+										<Image src="/images/home/instagram-icon.png" layout="responsive" width={80} height={80} placeholder="blur" />
 									</div>
 									<p className="copy--small">Instagram stories ad</p>
 									<div className="illustration__image illustration__image--instagram-story-sample">
-										<Image src="/instagram-story-sample.png" layout="responsive" width={414} height={896} placeholder="blur" />
+										<Image src="/images/home/instagram-story-sample.png" layout="responsive" width={414} height={896} placeholder="blur" />
 									</div>
 								</div>
 
 								<div className="illustration__col">
 									<div className="illustration__logo">
-										<Image src="/twis-icon.png" layout="responsive" width={80} height={80} placeholder="blur" />
+										<Image src="/images/home/twis-icon.png" layout="responsive" width={80} height={80} placeholder="blur" />
 									</div>
 									<p className="copy--small">twis experience</p>
 									<div className="illustration__image illustration__image--instagram-twis-sample">
-										<Image src="/instagram-twis-sample.png" layout="responsive" width={414} height={896} placeholder="blur" />
+										<Image src="/images/home/instagram-twis-sample.png" layout="responsive" width={414} height={896} placeholder="blur" />
 									</div>
 								</div>
 
 								<div className="callout__animated-arrow">
-									<Image src="/pointing-arrow.gif" width={120} height={150} />
+									<Image src="/images/home/pointing-arrow.gif" width={120} height={150} />
 								</div>
 							</div>
 							<div className="callout__text">
