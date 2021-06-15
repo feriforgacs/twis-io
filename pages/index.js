@@ -94,9 +94,9 @@ export default function Home() {
 							<div className="callout__illustration">
 								<div className="illustration__col">
 									<div className="illustration__logo">
-										<Image src="/tiktok-icon.png" layout="responsive" width={100} height={100} placeholder="blur" />
+										<Image src="/tiktok-icon.png" layout="responsive" width={80} height={80} placeholder="blur" />
 									</div>
-									<p>TikTok in-feed ad</p>
+									<p className="copy--small">TikTok in-feed ad</p>
 									<div className="illustration__image illustration__image--tiktok-feed-sample">
 										<Image src="/tiktok-sample.png" layout="responsive" width={414} height={896} placeholder="blur" />
 									</div>
@@ -104,9 +104,9 @@ export default function Home() {
 
 								<div className="illustration__col">
 									<div className="illustration__logo">
-										<Image src="/twis-icon.png" layout="responsive" width={100} height={100} placeholder="blur" />
+										<Image src="/twis-icon.png" layout="responsive" width={80} height={80} placeholder="blur" />
 									</div>
-									<p>twis experience</p>
+									<p className="copy--small">twis experience</p>
 									<div className="illustration__image illustration__image--tiktok-twis-sample">
 										<Image src="/tiktok-twis-sample.png" layout="responsive" width={414} height={896} placeholder="blur" />
 									</div>
@@ -122,9 +122,9 @@ export default function Home() {
 							<div className="callout__illustration">
 								<div className="illustration__col">
 									<div className="illustration__logo">
-										<Image src="/instagram-icon.png" layout="responsive" width={100} height={100} placeholder="blur" />
+										<Image src="/instagram-icon.png" layout="responsive" width={80} height={80} placeholder="blur" />
 									</div>
-									<p>Instagram stories ad</p>
+									<p className="copy--small">Instagram stories ad</p>
 									<div className="illustration__image illustration__image--instagram-story-sample">
 										<Image src="/instagram-story-sample.png" layout="responsive" width={414} height={896} placeholder="blur" />
 									</div>
@@ -132,9 +132,9 @@ export default function Home() {
 
 								<div className="illustration__col">
 									<div className="illustration__logo">
-										<Image src="/twis-icon.png" layout="responsive" width={100} height={100} placeholder="blur" />
+										<Image src="/twis-icon.png" layout="responsive" width={80} height={80} placeholder="blur" />
 									</div>
-									<p>twis experience</p>
+									<p className="copy--small">twis experience</p>
 									<div className="illustration__image illustration__image--instagram-twis-sample">
 										<Image src="/instagram-twis-sample.png" layout="responsive" width={414} height={896} placeholder="blur" />
 									</div>

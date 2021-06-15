@@ -31,3 +31,9 @@
 .subprocessor {
 	border-bottom: 1px solid #eee;
 }
+
+.copy {
+	&--small {
+		font-size: 0.7rem;
+	}
+}
