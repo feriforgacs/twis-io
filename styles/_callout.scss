@@ -90,8 +90,13 @@
 	}
 
 	&--instagram {
+		@media only screen and (min-width: 1024px) {
+			flex-direction: row-reverse;
+		}
+
 		.callout__text {
 			@media only screen and(min-width: 768px) {
+				box-sizing: border-box;
 				padding-left: 3rem;
 			}
 		}

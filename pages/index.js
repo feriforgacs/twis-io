@@ -119,6 +119,10 @@ export default function Home() {
 						</div>
 
 						<div className="callout callout--instagram">
+							<div className="callout__text">
+								<h3 className="title">From a story to a "story"</h3>
+								<p className="description">TODO</p>
+							</div>
 							<div className="callout__illustration">
 								<div className="illustration__col">
 									<div className="illustration__logo">
@@ -143,10 +147,6 @@ export default function Home() {
 								<div className="callout__animated-arrow">
 									<Image src="/images/home/pointing-arrow.gif" width={120} height={150} />
 								</div>
-							</div>
-							<div className="callout__text">
-								<h3 className="title">From a story to a "story"</h3>
-								<p className="description">TODO</p>
 							</div>
 						</div>
 					</div>
