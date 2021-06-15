@@ -84,7 +84,11 @@ export default function Home() {
 					<div id="callout-blocks">
 						<div className="callout callout--tiktok">
 							<div className="callout__text">
-								<h3 className="title">The experience that's in line with the mobile spirit</h3>
+								<h3 className="title">
+									The experience that's in line
+									<br className="hidden-on-mobile" />
+									with the mobile spirit
+								</h3>
 								<p className="description">TODO</p>
 							</div>
 							<div className="callout__illustration">
@@ -108,13 +112,45 @@ export default function Home() {
 									</div>
 								</div>
 
-								<div className="callout--tiktok__animated-arrow">
+								<div className="callout__animated-arrow">
 									<Image src="/pointing-arrow.gif" width={120} height={150} />
 								</div>
 							</div>
 						</div>
+
+						<div className="callout callout--instagram">
+							<div className="callout__illustration">
+								<div className="illustration__col">
+									<div className="illustration__logo">
+										<Image src="/instagram-icon.png" layout="responsive" width={100} height={100} placeholder="blur" />
+									</div>
+									<p>Instagram stories ad</p>
+									<div className="illustration__image illustration__image--instagram-story-sample">
+										<Image src="/instagram-story-sample.png" layout="responsive" width={414} height={896} placeholder="blur" />
+									</div>
+								</div>
+
+								<div className="illustration__col">
+									<div className="illustration__logo">
+										<Image src="/twis-icon.png" layout="responsive" width={100} height={100} placeholder="blur" />
+									</div>
+									<p>twis experience</p>
+									<div className="illustration__image illustration__image--instagram-twis-sample">
+										<Image src="/instagram-twis-sample.png" layout="responsive" width={414} height={896} placeholder="blur" />
+									</div>
+								</div>
+
+								<div className="callout__animated-arrow">
+									<Image src="/pointing-arrow.gif" width={120} height={150} />
+								</div>
+							</div>
+							<div className="callout__text">
+								<h3 className="title">From a story to a "story"</h3>
+								<p className="description">TODO</p>
+							</div>
+						</div>
 					</div>
-					###TODO callout Instagram story
+
 					<div className="callout">
 						<div className="callout__text">
 							<h3 className="title">Engage, educate, build awareness and grow your customer base</h3>
