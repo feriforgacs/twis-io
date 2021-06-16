@@ -72,14 +72,6 @@ export default function Callout() {
 					</div>
 				</div>
 			</div>
-
-			<div className="callout">
-				<div className="callout__text">
-					<h3 className="title">Engage, educate, build awareness and grow your customer base</h3>
-					<p className="description">TODO</p>
-				</div>
-				<div className="callout__illustration">Display twis app start screen » info screen with educational content / or question with edicational content » data collection form </div>
-			</div>
 		</>
 	);
 }

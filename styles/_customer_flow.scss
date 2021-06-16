@@ -1,0 +1,47 @@
+.full-width--customer-flow {
+	padding: 2rem 0;
+}
+
+.container--customer-flow {
+	display: flex;
+
+	.customer-flow {
+		&__col {
+			flex: 1;
+			text-align: center;
+		}
+
+		&__illustration {
+			.screen {
+				border-radius: 10px;
+				height: 216px;
+				margin: 0 auto;
+				width: 120px;
+			}
+
+			&--engage {
+				.screen {
+					background: linear-gradient(209.21deg, rgb(87, 15, 141) 13.57%, rgb(243, 91, 160) 98.38%);
+				}
+			}
+
+			&--educate {
+				.screen {
+					background: linear-gradient(209.21deg, rgb(87, 15, 141) 13.57%, rgb(243, 91, 160) 98.38%);
+				}
+			}
+
+			&--grow {
+				.screen {
+					background: linear-gradient(209.21deg, rgb(87, 15, 141) 13.57%, rgb(243, 91, 160) 98.38%);
+				}
+			}
+
+			&--build {
+				.screen {
+					background: linear-gradient(209.21deg, rgb(87, 15, 141) 13.57%, rgb(243, 91, 160) 98.38%);
+				}
+			}
+		}
+	}
+}

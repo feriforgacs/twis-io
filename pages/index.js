@@ -2,6 +2,7 @@ import Image from "next/image";
 import Layout from "../components/Layout";
 import Benefit from "../components/home/Benefit";
 import Callout from "../components/home/Callout";
+import CustomerFlow from "../components/home/CustomerFlow";
 import Pricing from "../components/home/Pricing";
 
 const benefits = [
@@ -84,6 +85,8 @@ export default function Home() {
 				<div className="container container--callout-blocks">
 					<Callout />
 				</div>
+
+				<CustomerFlow />
 
 				<div className="container container--pricing">
 					<Pricing />
