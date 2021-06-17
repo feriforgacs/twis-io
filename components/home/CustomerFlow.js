@@ -13,7 +13,11 @@ export default function CustomerFlow() {
 				<div className="customer-flow__col">
 					<h4>Educate</h4>
 					<div className="customer-flow__illustration customer-flow__illustration--educate">
-						<div className="screen"></div>
+						<div className="screen">
+							<div className="answer-option"></div>
+							<div className="answer-option"></div>
+							<div className="answer-option"></div>
+						</div>
 					</div>
 					<p>todo</p>
 				</div>
