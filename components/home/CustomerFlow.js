@@ -29,7 +29,11 @@ export default function CustomerFlow() {
 				<div className="customer-flow__col">
 					<h4>Grow database</h4>
 					<div className="customer-flow__illustration customer-flow__illustration--grow">
-						<div className="screen"></div>
+						<div className="screen">
+							<div className="input-field grow-screen-item">your name</div>
+							<div className="input-field grow-screen-item">your@mail.com</div>
+							<div className="submit-button grow-screen-item">submit</div>
+						</div>
 					</div>
 					<p>todo</p>
 				</div>
