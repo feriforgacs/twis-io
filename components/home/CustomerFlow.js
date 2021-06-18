@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function CustomerFlow() {
 	return (
 		<div className="full-width full-width--customer-flow">
@@ -15,7 +17,9 @@ export default function CustomerFlow() {
 					<div className="customer-flow__illustration customer-flow__illustration--educate">
 						<div className="screen">
 							<div className="answer-option"></div>
-							<div className="answer-option"></div>
+							<div className="answer-option">
+								<Image src="/images/home/icon--check.svg" width={20} height={30} />
+							</div>
 							<div className="answer-option"></div>
 						</div>
 					</div>
