@@ -8,8 +8,7 @@ export default function Callout() {
 					<div className="callout__text">
 						<h3 className="title">
 							The experience that's in line
-							<br className="hidden-on-mobile" />
-							with the mobile spirit
+							<br className="hidden-on-mobile" /> with the mobile spirit
 						</h3>
 						<p className="description">TODO</p>
 					</div>

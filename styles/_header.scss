@@ -164,7 +164,7 @@
 		}
 
 		&--nav-open {
-			color: #fff;
+			color: #00ffdd;
 			font-weight: 400;
 
 			span {
@@ -179,10 +179,12 @@
 		}
 
 		&--nav-close {
-			bottom: 1rem;
+			background: #00ffdd;
+			color: #1f124f;
+			top: 1rem;
 			overflow: hidden;
 			position: fixed;
-			right: 1rem;
+			left: 1rem;
 
 			span {
 				transition: all 300ms ease;
