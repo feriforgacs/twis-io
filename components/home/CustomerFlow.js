@@ -24,6 +24,14 @@ export default function CustomerFlow() {
 							<div className="emoji">
 								<Image src="/images/home/emoji--clapping-hands.png" width={30} height={30} />
 							</div>
+
+							<div className="emoji">
+								<Image src="/images/home/emoji--partying-face.png" width={30} height={30} />
+							</div>
+
+							<div className="emoji">
+								<Image src="/images/home/emoji--party-popper.png" width={30} height={30} />
+							</div>
 						</div>
 					</div>
 					<p>todo</p>
