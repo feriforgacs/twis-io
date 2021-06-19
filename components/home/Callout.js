@@ -42,7 +42,11 @@ export default function Callout() {
 				<div className="callout callout--instagram">
 					<div className="callout__text">
 						<h3 className="title">From a story to a "story"</h3>
-						<p className="description">TODO</p>
+						<p className="description">
+							Keep users in the flow by providing a similar experience they have while browsing stories.
+							<br />
+							Better experience » more engagement » higher conversion rate.
+						</p>
 					</div>
 					<div className="callout__illustration">
 						<div className="illustration__col">
