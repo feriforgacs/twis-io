@@ -10,7 +10,7 @@ export default function Callout() {
 							The experience that's in line
 							<br className="hidden-on-mobile" /> with the mobile spirit
 						</h3>
-						<p className="description">TODO</p>
+						<p className="description">Extend the mobile experience of your brand with a twis campaign to add some fun, playful energy to your marketing.</p>
 					</div>
 					<div className="callout__illustration">
 						<div className="illustration__col">
