@@ -181,6 +181,24 @@
 				}
 			}
 		}
+
+		&__description {
+			line-height: 200%;
+			margin: 3rem 1rem 1rem;
+			padding: 1rem 0.5rem;
+			position: relative;
+
+			&::before {
+				background: rgba(255, 255, 255, 0.5);
+				content: "";
+				display: block;
+				height: 2px;
+				mix-blend-mode: overlay;
+				position: absolute;
+				top: 0;
+				width: 100%;
+			}
+		}
 	}
 }
 
