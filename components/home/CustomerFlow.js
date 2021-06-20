@@ -34,7 +34,9 @@ export default function CustomerFlow() {
 							</div>
 						</div>
 					</div>
-					<p className="customer-flow__description">Add a combination of animated stickers, gifs, images and texts to your twis campaigns for a meaningful experience and higher engagemeet rates.</p>
+					<p className="customer-flow__description">
+						Add a combination of animated stickers, gifs, images and texts to your twis campaigns for a <strong className="color--neon-blue">meaningful experience</strong> and <strong className="color--neon-blue">higher engagement</strong> rates.
+					</p>
 				</div>
 
 				<div className="customer-flow__col">
@@ -48,7 +50,9 @@ export default function CustomerFlow() {
 							<div className="answer-option"></div>
 						</div>
 					</div>
-					<p className="customer-flow__description">Use a simple combination of questions and answers to educate users about the benefits of your product and strenghten the awareness of your brand.</p>
+					<p className="customer-flow__description">
+						Use a simple combination of questions and answers to <strong className="color--neon-blue">educate users</strong> about the benefits of your product and <strong className="color--neon-blue">strenghten the awareness</strong> of your brand.
+					</p>
 				</div>
 
 				<div className="customer-flow__col">
@@ -60,7 +64,9 @@ export default function CustomerFlow() {
 							<div className="submit-button grow-screen-item">submit</div>
 						</div>
 					</div>
-					<p className="customer-flow__description">Capture names and email addresses to start a conversation with your potential customers and let them be part of the journey of your brand.</p>
+					<p className="customer-flow__description">
+						Capture names and email addresses to <strong className="color--neon-blue">start a conversation</strong> with your potential customers and let them <strong className="color--neon-blue">be part of the journey</strong> of your brand.
+					</p>
 				</div>
 			</div>
 		</div>

@@ -41,3 +41,21 @@
 .full-width {
 	width: 100%;
 }
+
+.color {
+	&--neon-blue {
+		color: #0ae7f5;
+	}
+
+	&--neon-green {
+		color: #00ff57;
+	}
+
+	&--neon-yellow {
+		color: #ffee58;
+	}
+
+	&--neon-pink {
+		color: #ff0097;
+	}
+}
