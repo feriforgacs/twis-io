@@ -5,7 +5,7 @@ export default function CustomerFlow() {
 		<div className="full-width full-width--customer-flow">
 			<h3>Build awareness in a fun and engaging way</h3>
 			<div className="container container--customer-flow">
-				<div className="customer-flow__col">
+				<div className="customer-flow__col customer-flow__col--engage">
 					<h4>Engage</h4>
 					<div className="customer-flow__illustration customer-flow__illustration--engage">
 						<div className="screen">
