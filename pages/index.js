@@ -80,7 +80,7 @@ export default function Home() {
 					</div>
 				</div>
 
-				{/* <div className="container container--benefits">
+				<div className="container container--benefits">
 					<div id="benefits">
 						{benefits.map((benefit, index) => (
 							<Benefit key={index} icon={benefit.icon} title={benefit.title} description={benefit.description} />
@@ -91,6 +91,8 @@ export default function Home() {
 				<div className="container container--callout-blocks">
 					<Callout />
 				</div>
+
+				{/* 
 
 				<CustomerFlow />
 
