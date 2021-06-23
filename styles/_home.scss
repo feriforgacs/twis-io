@@ -158,23 +158,35 @@
 			width: 40px;
 		}
 
+		.sticker__animation {
+			border: 1px solid red;
+			height: 240px;
+			overflow: hidden;
+			position: relative;
+			transform: scale(0.6);
+			width: 240px;
+		}
+
 		&--sticker-1 {
 			animation: sticker1 500ms ease-out forwards;
 			animation-delay: 500ms;
-			left: calc(50% - 75px);
-			top: calc(50% - 75px);
-			transform: scale(0);
+			transform: translateX(0px) translateY(200px) scale(0);
 			width: 150px;
 			z-index: 20;
 
-			&::after {
-				animation: sticker1Sprite 1.5s steps(48) infinite;
-				background: url(/images/home/party-popper-sprite.png);
-				background-size: 7200px;
-				content: "";
-				display: block;
-				height: 150px;
-				width: 150px;
+			.sticker__animation {
+				&::after {
+					animation: sticker1Sprite 1.5s steps(48) infinite;
+					background: url(/images/home/sprite--party-popper.png) no-repeat top left transparent;
+					content: "";
+					display: block;
+					height: 240px;
+					left: 0;
+					position: absolute;
+					top: 0;
+					transform: translateX(0);
+					width: 11520px;
+				}
 			}
 		}
 
@@ -189,7 +201,7 @@
 
 			&::after {
 				animation: sticker2Sprite 1.5s steps(48) infinite;
-				background: url(/images/home/heart-eyes-sprite.png);
+				background: url(/images/home/sprite--heart-eyes.png);
 				background-size: 7200px;
 				content: "";
 				display: block;
@@ -209,7 +221,7 @@
 
 			&::after {
 				animation: sticker3Sprite 1.5s steps(49) infinite;
-				background: url(/images/home/thumbs-up-sprite.png);
+				background: url(/images/home/sprite--thumbs-up.png);
 				background-size: 7350px;
 				content: "";
 				display: block;
@@ -277,19 +289,14 @@
 }
 
 @keyframes sticker1 {
-	80% {
-		transform: scale(1.2);
-	}
 	100% {
-		left: -150px;
-		top: 0;
-		transform: scale(1);
+		transform: translateX(-170px) translateY(-50px) scale(1);
 	}
 }
 
 @keyframes sticker1Sprite {
 	to {
-		background-position: -7200px;
+		transform: translateX(-11520px);
 	}
 }
 
