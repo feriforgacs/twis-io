@@ -159,7 +159,6 @@
 		}
 
 		.sticker__animation {
-			border: 1px solid red;
 			height: 240px;
 			overflow: hidden;
 			position: relative;
@@ -170,6 +169,7 @@
 		&--sticker-1 {
 			animation: sticker1 500ms ease-out forwards;
 			animation-delay: 500ms;
+			height: 150px;
 			transform: translateX(0px) translateY(200px) scale(0);
 			width: 150px;
 			z-index: 20;
@@ -193,40 +193,48 @@
 		&--sticker-2 {
 			animation: sticker2 500ms ease-out forwards;
 			animation-delay: 600ms;
-			left: calc(50% - 75px);
-			top: calc(50% - 75px);
-			transform: scale(0);
+			height: 150px;
+			transform: translateX(0px) translateY(200px) scale(0);
 			width: 150px;
 			z-index: 20;
 
-			&::after {
-				animation: sticker2Sprite 1.5s steps(48) infinite;
-				background: url(/images/home/sprite--heart-eyes.png);
-				background-size: 7200px;
-				content: "";
-				display: block;
-				height: 150px;
-				width: 150px;
+			.sticker__animation {
+				&::after {
+					animation: sticker2Sprite 1.5s steps(48) infinite;
+					background: url(/images/home/sprite--heart-eyes.png) no-repeat top left transparent;
+					content: "";
+					display: block;
+					height: 240px;
+					left: 0;
+					position: absolute;
+					top: 0;
+					transform: translateX(0);
+					width: 11520px;
+				}
 			}
 		}
 
 		&--sticker-3 {
 			animation: sticker3 500ms ease-out forwards;
 			animation-delay: 700ms;
-			left: calc(50% - 75px);
-			top: calc(50% - 75px);
-			transform: scale(0);
+			height: 150px;
+			transform: translateX(0px) translateY(200px) scale(0);
 			width: 150px;
 			z-index: 20;
 
-			&::after {
-				animation: sticker3Sprite 1.5s steps(49) infinite;
-				background: url(/images/home/sprite--thumbs-up.png);
-				background-size: 7350px;
-				content: "";
-				display: block;
-				height: 150px;
-				width: 150px;
+			.sticker__animation {
+				&::after {
+					animation: sticker3Sprite 1.5s steps(49) infinite;
+					background: url(/images/home/sprite--thumbs-up.png) no-repeat top left transparent;
+					content: "";
+					display: block;
+					height: 240px;
+					left: 0;
+					position: absolute;
+					top: 0;
+					transform: translateX(0);
+					width: 11760px;
+				}
 			}
 		}
 
@@ -301,36 +309,26 @@
 }
 
 @keyframes sticker2 {
-	80% {
-		transform: scale(1.2);
-	}
 	100% {
-		left: -170px;
-		top: 70%;
-		transform: scale(1);
+		transform: translateX(-190px) translateY(300px) scale(1);
 	}
 }
 
 @keyframes sticker2Sprite {
 	to {
-		background-position: -7200px;
+		transform: translateX(-11520px);
 	}
 }
 
 @keyframes sticker3 {
-	80% {
-		transform: scale(1.2);
-	}
 	100% {
-		left: 110%;
-		top: 30%;
-		transform: scale(1);
+		transform: translateX(190px) translateY(170px) scale(1);
 	}
 }
 
 @keyframes sticker3Sprite {
 	to {
-		background-position: -7350px;
+		transform: translateX(-11760px);
 	}
 }
 

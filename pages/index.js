@@ -65,9 +65,13 @@ export default function Home() {
 								<div className="sticker__animation"></div>
 							</div>
 
-							{/* <div className="mockup__item mockup__item--sticker-2"></div>
+							<div className="mockup__item mockup__item--sticker-2">
+								<div className="sticker__animation"></div>
+							</div>
 
-							<div className="mockup__item mockup__item--sticker-3"></div> */}
+							<div className="mockup__item mockup__item--sticker-3">
+								<div className="sticker__animation"></div>
+							</div>
 
 							<a href="###TODO" className="mockup__item mockup__item--button">
 								<span>👉 start 👈</span>
