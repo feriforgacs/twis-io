@@ -9,27 +9,27 @@ export default function CustomerFlow() {
 					<h4>Engage</h4>
 					<div className="customer-flow__illustration customer-flow__illustration--engage">
 						<div className="screen">
-							<div className="emoji">
+							<div className="emoji force-gpu">
 								<Image src="/images/home/emoji--heart-eyes.png" width={30} height={30} />
 							</div>
 
-							<div className="emoji">
+							<div className="emoji force-gpu">
 								<Image src="/images/home/emoji--joy.png" width={30} height={30} />
 							</div>
 
-							<div className="emoji">
+							<div className="emoji force-gpu">
 								<Image src="/images/home/emoji--sparkling-heart.png" width={30} height={30} />
 							</div>
 
-							<div className="emoji">
+							<div className="emoji force-gpu">
 								<Image src="/images/home/emoji--clapping-hands.png" width={30} height={30} />
 							</div>
 
-							<div className="emoji">
+							<div className="emoji force-gpu">
 								<Image src="/images/home/emoji--partying-face.png" width={30} height={30} />
 							</div>
 
-							<div className="emoji">
+							<div className="emoji foce-gpu">
 								<Image src="/images/home/emoji--party-popper.png" width={30} height={30} />
 							</div>
 						</div>
@@ -43,11 +43,11 @@ export default function CustomerFlow() {
 					<h4>Educate</h4>
 					<div className="customer-flow__illustration customer-flow__illustration--educate">
 						<div className="screen">
-							<div className="answer-option"></div>
-							<div className="answer-option">
+							<div className="answer-option force-gpu"></div>
+							<div className="answer-option force-gpu">
 								<Image src="/images/home/icon--check.svg" width={20} height={30} />
 							</div>
-							<div className="answer-option"></div>
+							<div className="answer-option force-gpu"></div>
 						</div>
 					</div>
 					<p className="customer-flow__description">
@@ -59,9 +59,9 @@ export default function CustomerFlow() {
 					<h4>Grow database</h4>
 					<div className="customer-flow__illustration customer-flow__illustration--grow">
 						<div className="screen">
-							<div className="input-field grow-screen-item">your name</div>
-							<div className="input-field grow-screen-item">your@mail.com</div>
-							<div className="submit-button grow-screen-item">submit</div>
+							<div className="input-field grow-screen-item force-gpu">your name</div>
+							<div className="input-field grow-screen-item force-gpu">your@mail.com</div>
+							<div className="submit-button grow-screen-item force-gpu">submit</div>
 						</div>
 					</div>
 					<p className="customer-flow__description">

@@ -16,11 +16,6 @@
 	@media only screen and (min-width: 996px) {
 		background-size: contain;
 	}
-
-	backface-visibility: hidden;
-	perspective: 1000;
-	transform: translate3d(0, 0, 0);
-	transform: translateZ(0);
 }
 
 #hero {
