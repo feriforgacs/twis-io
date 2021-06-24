@@ -59,9 +59,9 @@ export default function CustomerFlow() {
 					<h4>Grow database</h4>
 					<div className="customer-flow__illustration customer-flow__illustration--grow">
 						<div className="screen">
-							<div className="input-field grow-screen-item force-gpu">your name</div>
-							<div className="input-field grow-screen-item force-gpu">your@mail.com</div>
-							<div className="submit-button grow-screen-item force-gpu">submit</div>
+							<div className="input-field grow-screen__item force-gpu">your name</div>
+							<div className="input-field grow-screen__item force-gpu">your@mail.com</div>
+							<div className="submit-button grow-screen__item force-gpu">submit</div>
 						</div>
 					</div>
 					<p className="customer-flow__description">

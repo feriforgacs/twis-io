@@ -506,9 +506,12 @@
 		}
 
 		.pricing-option {
+			background: linear-gradient(to top, #7f00ff, #e100ff);
+			border-radius: 2rem;
 			line-height: 200%;
 			margin: 0 auto 2rem;
 			max-width: 340px;
+			overflow: hidden;
 			position: relative;
 			width: 100%;
 
@@ -572,6 +575,7 @@
 				top: -0.25rem;
 				width: 100%;
 				z-index: 0;
+				will-change: transform;
 
 				@media only screen and(min-width: 1100px) {
 					top: 0;
@@ -601,18 +605,9 @@
 
 @keyframes gradientAnimation {
 	0% {
-		background-position: 0 0;
-	}
-	25% {
-		background-position: -50% 0;
-	}
-	50% {
-		background-position: -100% -25%;
-	}
-	75% {
-		background-position: -20% -75%;
+		transform: rotate(0deg);
 	}
 	100% {
-		background-position: 0 0;
+		transform: rotate(180deg);
 	}
 }

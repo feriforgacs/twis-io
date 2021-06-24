@@ -94,11 +94,9 @@ export default function Home() {
 
 				<CustomerFlow />
 
-				{/* 
-
 				<div className="container container--pricing">
 					<Pricing />
-				</div> */}
+				</div>
 			</div>
 		</Layout>
 	);
