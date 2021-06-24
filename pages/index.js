@@ -92,9 +92,9 @@ export default function Home() {
 					<Callout />
 				</div>
 
-				{/* 
-
 				<CustomerFlow />
+
+				{/* 
 
 				<div className="container container--pricing">
 					<Pricing />

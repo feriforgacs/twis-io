@@ -66,3 +66,11 @@
 	transform: translate3d(0, 0, 0);
 	transform: translateZ(0);
 }
+
+.animation-paused {
+	animation-play-state: paused;
+}
+
+.op-0 {
+	opacity: 0;
+}

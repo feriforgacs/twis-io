@@ -173,8 +173,9 @@
 			transform: translateX(0px) translateY(200px) scale(0);
 			width: 150px;
 			z-index: 20;
+			will-change: transform;
 
-			.sticker__animation {
+			.sticker__animation:not(.animation-paused) {
 				&::after {
 					animation: sticker1Sprite 1.5s steps(48) infinite;
 					background: url(/images/home/sprite--party-popper.png) no-repeat top left transparent;
@@ -186,6 +187,7 @@
 					top: 0;
 					transform: translateX(0);
 					width: 11520px;
+					will-change: transform;
 				}
 			}
 		}
@@ -197,8 +199,9 @@
 			transform: translateX(0px) translateY(200px) scale(0);
 			width: 150px;
 			z-index: 20;
+			will-change: transform;
 
-			.sticker__animation {
+			.sticker__animation:not(.animation-paused) {
 				&::after {
 					animation: sticker2Sprite 1.5s steps(48) infinite;
 					background: url(/images/home/sprite--heart-eyes.png) no-repeat top left transparent;
@@ -210,6 +213,7 @@
 					top: 0;
 					transform: translateX(0);
 					width: 11520px;
+					will-change: transform;
 				}
 			}
 		}
@@ -221,8 +225,9 @@
 			transform: translateX(0px) translateY(200px) scale(0);
 			width: 150px;
 			z-index: 20;
+			will-change: transform;
 
-			.sticker__animation {
+			.sticker__animation:not(.animation-paused) {
 				&::after {
 					animation: sticker3Sprite 1.5s steps(49) infinite;
 					background: url(/images/home/sprite--thumbs-up.png) no-repeat top left transparent;
@@ -234,6 +239,7 @@
 					top: 0;
 					transform: translateX(0);
 					width: 11760px;
+					will-change: transform;
 				}
 			}
 		}
