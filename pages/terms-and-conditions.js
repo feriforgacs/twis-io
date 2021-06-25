@@ -3,7 +3,7 @@ import PrivacySidebar from "../components/sidebars/privacy-sidebar";
 
 export default function TermsAndConditionsPage() {
 	return (
-		<Layout className="subpage">
+		<Layout className="subpage" title={`Terms and Conditions - ${process.env.NEXT_PUBLIC_SITE_NAME}`}>
 			<div className="container">
 				<section className="content">
 					<div className="content__sidebar">

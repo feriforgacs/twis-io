@@ -22,7 +22,7 @@ export default function FAQ() {
 	];
 
 	return (
-		<Layout className="subpage">
+		<Layout className="subpage" title={`Frequently Asked Questions - ${process.env.NEXT_PUBLIC_SITE_NAME}`}>
 			<div className="container">
 				<section className="content">
 					<div className="content__body">

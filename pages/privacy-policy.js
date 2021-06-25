@@ -3,7 +3,7 @@ import PrivacySidebar from "../components/sidebars/privacy-sidebar";
 
 export default function PrivacyPolicyPage() {
 	return (
-		<Layout className="subpage">
+		<Layout className="subpage" title={`Privacy Policy - ${process.env.NEXT_PUBLIC_SITE_NAME}`}>
 			<div className="container">
 				<section className="content">
 					<div className="content__sidebar">

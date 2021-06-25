@@ -4,10 +4,7 @@ import PrivacySidebar from "../components/sidebars/privacy-sidebar";
 
 export default function SubprocessorsPage() {
 	return (
-		<Layout className="subpage">
-			<Head>
-				<title>Sub-Processors - twis.io</title>
-			</Head>
+		<Layout className="subpage" title={`Sub-Processors - ${process.env.NEXT_PUBLIC_SITE_NAME}`}>
 			<div className="container">
 				<section className="content">
 					<div className="content__sidebar">
