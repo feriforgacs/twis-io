@@ -45,7 +45,7 @@ export default function Pricing() {
 			</div>
 
 			<div id="pricing__cta">
-				<a href="https://app.twis.io" className="btn btn--primary btn--large">
+				<a href={process.env.NEXT_PUBLIC_LOGIN_URL} className="btn btn--primary btn--large">
 					Try for free
 				</a>
 				<p>

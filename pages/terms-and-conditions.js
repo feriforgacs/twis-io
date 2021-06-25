@@ -16,7 +16,9 @@ export default function TermsAndConditionsPage() {
 							<em>Last updated: June 1, 2021</em>
 						</p>
 
-						<p>Please read these Terms and Conditions ("Terms", "Terms and Conditions") carefully before using the https://twis.io, https://app.twis.io, https://go.twis.io websites (the "Service") operated by Twis.io ("us", "we", or "our").</p>
+						<p>
+							Please read these Terms and Conditions ("Terms", "Terms and Conditions") carefully before using the {process.env.NEXT_PUBLIC_SITE_URL}, {process.env.NEXT_PUBLIC_LOGIN_URL}, {process.env.NEXT_PUBLIC_DISPLAY_URL} websites (the "Service") operated by Twis.io ("us", "we", or "our").
+						</p>
 
 						<p>Your access to and use of the Service is conditioned on your acceptance of and compliance with these Terms. These Terms apply to all visitors, users and others who access or use the Service.</p>
 
@@ -48,7 +50,7 @@ export default function TermsAndConditionsPage() {
 
 						<p>
 							Users may discontinue the Service at any time{" "}
-							<a href="https://app.twis.io/account" target="_blank" rel="noopener noreferrer" className="link">
+							<a href={`${process.env.NEXT_PUBLIC_LOGIN_URL}/account`} target="_blank" rel="noopener noreferrer" className="link">
 								under their account
 							</a>{" "}
 							or by contacting us directly.

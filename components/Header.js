@@ -59,12 +59,12 @@ export default function Header() {
 					<nav className="nav--secondary">
 						<ul>
 							<li className="hidden-on-mobile">
-								<a href="https://app.twis.io" className="link">
+								<a href={process.env.NEXT_PUBLIC_LOGIN_URL} className="link">
 									Log in
 								</a>
 							</li>
 							<li>
-								<a href="https://app.twis.io" className="btn btn--primary">
+								<a href={process.env.NEXT_PUBLIC_LOGIN_URL} className="btn btn--primary">
 									<span className="hidden-on-desktop">Try now</span>
 									<span className="hidden-on-mobile">Try for free</span>
 								</a>

@@ -5,7 +5,7 @@ export default function FAQ() {
 	const faqItems = [
 		{
 			title: "The campaign I created doesn't seem to work. What could be the problem?",
-			description: `<p>First, check your connection. It can easily happen that the issue is the result of a short connection outage.</p><p>Second, make sure that you set the campaign status to "Active" under the publish settings. Also, make sure that the visibility dates are correct.</p><p>If these settings seem to be okay, try to load your campaign on different browsers and devices.</p>`,
+			description: `<p>First, check your connection. It can easily happen that the issue is the result of a short connection outage.</p><p>Second, make sure that you set the campaign status to "Active" under the publish settings. Also, make sure that the visibility dates are correct.</p><p>If these settings seem to be okay, try to load your campaign on different browsers and / or devices.</p>`,
 		},
 		{
 			title: "How many participants can I collect with my campaigns?",
@@ -31,6 +31,13 @@ export default function FAQ() {
 							{faqItems.map((item, index) => (
 								<FaqItem key={index} title={item.title} description={item.description} />
 							))}
+						</div>
+
+						<div>
+							<h4>Can't find the answer to your question in the list?</h4>
+							<p>
+								Feel free to get in touch via email at <a href="mailto:support@twis.io">support@twis.io</a>.
+							</p>
 						</div>
 					</div>
 				</section>
