@@ -1,6 +1,8 @@
 import Link from "next/link";
 
 export default function Footer() {
+	const year = new Date().getFullYear();
+
 	return (
 		<footer className="footer">
 			<div className="container">
@@ -61,7 +63,7 @@ export default function Footer() {
 			</div>
 
 			<div className="container">
-				<p className="footer__copyright">&copy; All Rights Reserved 2021</p>
+				<p className="footer__copyright">&copy; All Rights Reserved {year}</p>
 			</div>
 		</footer>
 	);

@@ -1,5 +1,6 @@
 import Layout from "../components/Layout";
 import FaqItem from "../components/FaqItem";
+import ContactSidebar from "../components/sidebars/contact-sidebar";
 
 export default function FAQ() {
 	const faqItems = [
@@ -37,6 +38,9 @@ export default function FAQ() {
 		<Layout className="subpage" title={`Frequently Asked Questions - ${process.env.NEXT_PUBLIC_SITE_NAME}`}>
 			<div className="container">
 				<section className="content">
+					<div className="content__sidebar">
+						<ContactSidebar />
+					</div>
 					<div className="content__body">
 						<h1>Frequently Asked Questions</h1>
 						<div className="faq-items">
@@ -48,7 +52,11 @@ export default function FAQ() {
 						<div>
 							<h4>Can't find the answer to your question in the list?</h4>
 							<p>
-								Feel free to get in touch via email at <a href="mailto:support@twis.io">support@twis.io</a>.
+								Feel free to get in touch via email at{" "}
+								<a href="mailto:support@twis.io" className="link">
+									support@twis.io
+								</a>
+								.
 							</p>
 						</div>
 					</div>
