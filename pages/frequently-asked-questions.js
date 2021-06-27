@@ -12,12 +12,12 @@ export default function FAQ() {
 			description: "<p>The number of participants you can collect with your campaigns <strong>depends on your subscription</strong>. If you are on the <strong>Basic plan</strong> you can collect 100 participants in a month, with as many campaigns as you want. So, if you have 3 campaigns and your first campaign collects 90 participants, your second campaign collects 9 participants, your third campaign can collect 1 more participant without overages. On the <strong>Pro plan</strong>, you can collect 1 000 participants per month, and on the <strong>Premium plan</strong>, the limit is 10 000 participants per month.</p>",
 		},
 		{
-			title: "How many campaign can I create?",
+			title: "How many campaigns can I create?",
 			description: "<p>You can create as many campaigns as you'd like. The only thing that is limited is the number of participants you can collect with your campaigns.</p>",
 		},
 		{
-			title: "What happens when I reach the participant limit in my plan?",
-			description: "",
+			title: "What happens when I reach the participant limit defined in my plan?",
+			description: "<p>Your campaigns will keep collecting participants without interruption but for the additional participants, you'll be charged with overages. The amount of that depends on the number of additional participants your campaigns captured and also on your selected subscription.</p>",
 		},
 		{
 			title: "How can I cancel my subscription?",
