@@ -12,12 +12,24 @@ export default function FAQ() {
 			description: "<p>The number of participants you can collect with your campaigns <strong>depends on your subscription</strong>. If you are on the <strong>Basic plan</strong> you can collect 100 participants in a month, with as many campaigns as you want. So, if you have 3 campaigns and your first campaign collects 90 participants, your second campaign collects 9 participants, your third campaign can collect 1 more participant without overages. On the <strong>Pro plan</strong>, you can collect 1 000 participants per month, and on the <strong>Premium plan</strong>, the limit is 10 000 participants per month.</p>",
 		},
 		{
+			title: "How many campaign can I create?",
+			description: "<p>You can create as many campaigns as you'd like. The only thing that is limited is the number of participants you can collect with your campaigns.</p>",
+		},
+		{
+			title: "What happens when I reach the participant limit in my plan?",
+			description: "",
+		},
+		{
 			title: "How can I cancel my subscription?",
 			description: `<p>If you have an active subscription, you can cancel it through the twis dashboard, by visiting your "Account" page and clicking on the "Subscription" tab. There, you'll see a cancel section where you can easily start the cancellation process. If you have any problems during the process, don't hesitate to get in touch via email at support@twis.io.</p>`,
 		},
 		{
 			title: "Are twis campaigns working on desktop?",
 			description: "<p><strong>Yes.</strong> Although twis was built with a mobile-first mindset and the story format works best on mobile, twis campaigns are working well on desktop as well.</p>",
+		},
+		{
+			title: "How can I get a refund?",
+			description: "<p>If you'd like to initiate a refund, please send us a message to refund@twis.io from the email address you used to create your account.</p>",
 		},
 	];
 
