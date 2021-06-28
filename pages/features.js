@@ -36,16 +36,16 @@ export default function Features() {
 
 							<div className="feature-item feature-item--background feature-item--reverse">
 								<div className="feature-item__description feature-item__description--reverse">
-									<h4>Easy to use drag & drop campaign builder and designer</h4>
+									<h4>Multiple customization options</h4>
 									<p className="benefit">
-										<strong>Benefit</strong> Create a new campaign in just a few minutes.
+										<strong>Benefit</strong> Build an experience that is brand fit.
 									</p>
-									<p>You can design and set up your twis campaign just as you'd create a presentation. The result will be in front of you and you can move and resize the images, GIFs, stickers, and text items to set up the desired look and feel.</p>
+									<p>The built-in customization tools (custom fonts, colors, font size, background color, etc) make it possible to set up a campaign that follows the design language of your brand. So you can create a cohesive user experience.</p>
 								</div>
 
 								<div className="feature-item__illustration">
 									<div className="illustration-image">
-										<Image src="/images/features/01_drag_and_drop_builder.png" layout="responsive" width={1200} height={673} />
+										<Image src="/images/features/02_custom_fonts_colors.png" layout="responsive" width={880} height={640} />
 									</div>
 								</div>
 							</div>
