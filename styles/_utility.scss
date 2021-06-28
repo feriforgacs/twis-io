@@ -74,3 +74,17 @@
 .op-0 {
 	opacity: 0;
 }
+
+.align {
+	&--left {
+		text-align: left;
+	}
+
+	&--center {
+		text-align: center;
+	}
+
+	&--rigth {
+		text-align: right;
+	}
+}

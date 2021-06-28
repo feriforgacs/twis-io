@@ -1,0 +1,27 @@
+.features-page {
+	.lead {
+		margin: 0 auto 5rem;
+	}
+	.features {
+		.feature-item {
+			h4 {
+				background: linear-gradient(103.65deg, #a30fbb 26.04%, #ce0a16 78.62%);
+				background-clip: text;
+				-webkit-text-fill-color: transparent;
+				color: #a30fbb;
+				font-size: 1.5rem;
+				line-height: 2.5rem;
+			}
+
+			.benefit {
+				strong {
+					background: linear-gradient(to right, #7f00ff, #e100ff);
+					border-radius: 1rem;
+					color: #fff;
+					padding: 0.2rem 1rem;
+					text-transform: uppercase;
+				}
+			}
+		}
+	}
+}
