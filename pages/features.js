@@ -1,4 +1,5 @@
 import Layout from "../components/Layout";
+import Image from "next/image";
 
 export default function Features() {
 	return (
@@ -16,17 +17,39 @@ export default function Features() {
 						</div>
 
 						<div className="features">
-							<div className="feature-item feature-item--background">
+							<div className="feature-item">
 								<div className="feature-item__description">
-									<h4>Easy to use drag & drop campaign designer</h4>
+									<h4>Easy to use drag & drop campaign builder and designer</h4>
 									<p className="benefit">
 										<strong>Benefit</strong> Create a new campaign in just a few minutes.
 									</p>
 									<p>You can design and set up your twis campaign just as you'd create a presentation. The result will be in front of you and you can move and resize the images, GIFs, stickers, and text items to set up the desired look and feel.</p>
 								</div>
 
-								<div className="feature-item__illustration">### TODO</div>
+								<div className="feature-item__illustration">
+									<div className="illustration-image">
+										<Image src="/images/features/01_drag_and_drop_builder.png" layout="responsive" width={1200} height={673} />
+									</div>
+								</div>
 							</div>
+							{/* end .feature-item */}
+
+							<div className="feature-item feature-item--background feature-item--reverse">
+								<div className="feature-item__description feature-item__description--reverse">
+									<h4>Easy to use drag & drop campaign builder and designer</h4>
+									<p className="benefit">
+										<strong>Benefit</strong> Create a new campaign in just a few minutes.
+									</p>
+									<p>You can design and set up your twis campaign just as you'd create a presentation. The result will be in front of you and you can move and resize the images, GIFs, stickers, and text items to set up the desired look and feel.</p>
+								</div>
+
+								<div className="feature-item__illustration">
+									<div className="illustration-image">
+										<Image src="/images/features/01_drag_and_drop_builder.png" layout="responsive" width={1200} height={673} />
+									</div>
+								</div>
+							</div>
+							{/* end .feature-item */}
 						</div>
 					</div>
 				</div>
