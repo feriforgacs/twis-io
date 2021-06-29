@@ -15,19 +15,19 @@
 				@media only screen and (min-width: 1024px) {
 					flex-direction: row-reverse;
 				}
+
+				.feature-item__description {
+					@media only screen and (min-width: 1024px) {
+						padding-right: 0;
+						padding-left: 2rem;
+					}
+				}
 			}
 
 			&__description {
 				@media only screen and (min-width: 1024px) {
 					flex: 1;
 					padding-right: 2rem;
-				}
-
-				&--reverse {
-					@media only screen and (min-width: 1024px) {
-						padding-right: 0;
-						padding-left: 2rem;
-					}
 				}
 			}
 

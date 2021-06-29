@@ -35,7 +35,7 @@ export default function Features() {
 							{/* end .feature-item */}
 
 							<div className="feature-item feature-item--background feature-item--reverse">
-								<div className="feature-item__description feature-item__description--reverse">
+								<div className="feature-item__description">
 									<h4>Multiple customization options</h4>
 									<p className="benefit">
 										<strong>Benefit</strong> Build an experience that is brand fit.
@@ -46,6 +46,40 @@ export default function Features() {
 								<div className="feature-item__illustration">
 									<div className="illustration-image">
 										<Image src="/images/features/02_custom_fonts_colors.png" layout="responsive" width={880} height={640} />
+									</div>
+								</div>
+							</div>
+							{/* end .feature-item */}
+
+							<div className="feature-item feature-item--background">
+								<div className="feature-item__description">
+									<h4>Hundreds of stock quality images just a click away</h4>
+									<p className="benefit">
+										<strong>Benefit</strong> Visually engaging experience.
+									</p>
+									<p>Thanks to Unsplash, you can chose from more than 1 million stock quality free photos to create a visually appealing and memorable experience for your audience.</p>
+								</div>
+
+								<div className="feature-item__illustration">
+									<div className="illustration-image">
+										<Image src="/images/features/03_unsplash_photos.png" layout="responsive" width={880} height={637} />
+									</div>
+								</div>
+							</div>
+							{/* end .feature-item */}
+
+							<div className="feature-item feature-item--background feature-item--reverse">
+								<div className="feature-item__description">
+									<h4>Animated stickers to make it pop</h4>
+									<p className="benefit">
+										<strong>Benefit</strong> Create visual continuity between the content on social platforms and your campaigns.
+									</p>
+									<p>Animated stickers and animated GIFs are highly adapted elements of stories on all kind of social platforms. You can use the same stickers in your twis campaigns so you can create a bridge between the content on your social profiles and your twis experiences.</p>
+								</div>
+
+								<div className="feature-item__illustration">
+									<div className="illustration-image">
+										<Image src="/images/features/04_giphy_stickers.png" layout="responsive" width={800} height={631} />
 									</div>
 								</div>
 							</div>
