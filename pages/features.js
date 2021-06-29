@@ -62,7 +62,7 @@ export default function Features() {
 
 								<div className="feature-item__illustration">
 									<div className="illustration-image">
-										<Image src="/images/features/03_unsplash_photos.png" layout="responsive" width={880} height={637} />
+										<Image src="/images/features/03_unsplash_photos.png" layout="responsive" width={800} height={637} />
 									</div>
 								</div>
 							</div>
@@ -84,7 +84,81 @@ export default function Features() {
 								</div>
 							</div>
 							{/* end .feature-item */}
+
+							<div className="feature-item feature-item--background">
+								<div className="feature-item__description">
+									<h4>Info screens that you can use to educate your audience about the benefits of your brand</h4>
+									<p className="benefit">
+										<strong>Benefit</strong> Strengthen brand awareness while having fun.
+									</p>
+									<p>In your twis campaigns you can use a combination of informational and action screens. Info screens are a great way to teach your audience something new about your brand. You can also drive visitors to your website where they can learn more about a give topic and to strengthen their newly acquired knowledge, you can re-use this information in your campaigns as questions.</p>
+								</div>
+
+								<div className="feature-item__illustration">
+									<div className="illustration-image">
+										<Image src="/images/features/05_info_screens.png" layout="responsive" width={880} height={493} />
+									</div>
+								</div>
+							</div>
+							{/* end .feature-item */}
+
+							<div className="feature-item feature-item--background feature-item--reverse">
+								<div className="feature-item__description">
+									<h4>Collect names and email addresses</h4>
+									<p className="benefit">
+										<strong>Benefit</strong> Grow your database.
+									</p>
+									<p>After a great experience, members of your audience will more likely provide their names and email addresses to you so you can grow your database with highly engaged leads and potential customers.</p>
+								</div>
+
+								<div className="feature-item__illustration">
+									<div className="illustration-image">
+										<Image src="/images/features/06_collect_names_and_email_addresses.png" layout="responsive" width={1200} height={673} />
+									</div>
+								</div>
+							</div>
+							{/* end .feature-item */}
+
+							<div className="feature-item feature-item--background">
+								<div className="feature-item__description">
+									<h4>Allow everyone to participate or set up a limit</h4>
+									<p className="benefit">
+										<strong>Benefit</strong> Makes sure your participants will pay attention to the information you'd like to share with them.
+									</p>
+									<p>You can set up a limit that participants have to reach to successfully complete your campaign. If you are setting up a higher limit, users have to pay more attention to the information you share and that helps strengthen the newly earned knowledge, which supports brand awareness and engagement.</p>
+								</div>
+
+								<div className="feature-item__illustration">
+									<div className="illustration-image">
+										<Image src="/images/features/07_answer_limit.png" layout="responsive" width={880} height={639} />
+									</div>
+								</div>
+							</div>
+							{/* end .feature-item */}
+
+							<div className="feature-item feature-item--background feature-item--reverse">
+								<div className="feature-item__description">
+									<h4>Export the collected information</h4>
+									<p className="benefit">
+										<strong>Benefit</strong> You can easily move the collected information to other tools you already use and familiar with.
+									</p>
+									<p>Twis makes it possible to export the collected information in Excel format, that you can use as you'd like it. This format makes it easy to import the collected data to systems like Mailchimp, Convertkit, or any other tool that accepts xls or csv files.</p>
+								</div>
+
+								<div className="feature-item__illustration">
+									<div className="illustration-image">
+										<Image src="/images/features/08_export_participants.png" layout="responsive" width={800} height={442} />
+									</div>
+								</div>
+							</div>
+							{/* end .feature-item */}
 						</div>
+
+						<p className="align--center">
+							<strong>These are just some of the features that are available in twis. Why don't you give it a try? It's free to get started.</strong>
+							<br />
+							TODO TRY NOW
+						</p>
 					</div>
 				</div>
 			</div>
