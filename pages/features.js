@@ -156,9 +156,11 @@ export default function Features() {
 
 						<p className="align--center">
 							<strong>These are just some of the features that are available in twis. Why don't you give it a try? It's free to get started.</strong>
-							<br />
-							TODO TRY NOW
 						</p>
+
+						<a href={process.env.NEXT_PUBLIC_LOGIN_URL} className="btn btn--primary btn--large">
+							Try for free
+						</a>
 					</div>
 				</div>
 			</div>
