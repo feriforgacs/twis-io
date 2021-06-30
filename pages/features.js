@@ -9,7 +9,7 @@ export default function Features() {
 					<div className="content__body features-page">
 						<div className="lead">
 							<h1 className="align--center">Features</h1>
-							<h2 className="align--center">What twis can do for you?</h2>
+							<h2 className="align--center font--mulish">What twis can do for you?</h2>
 
 							<p className="align--center">Twis helps you create meaningful experiences so your brand can build awareness with your existing and potential cusomers.</p>
 
@@ -152,15 +152,25 @@ export default function Features() {
 								</div>
 							</div>
 							{/* end .feature-item */}
+
+							<div className="features__footer">
+								<p className="align--center">
+									<strong>
+										These are just some of the features that are available in twis.
+										<br />
+										Why don't you give it a try? It's free to get started.
+									</strong>
+								</p>
+
+								<a href={process.env.NEXT_PUBLIC_LOGIN_URL} className="btn btn--primary btn--large">
+									Try for free
+								</a>
+
+								<p className="align--center">
+									<small>No credit card required</small>
+								</p>
+							</div>
 						</div>
-
-						<p className="align--center">
-							<strong>These are just some of the features that are available in twis. Why don't you give it a try? It's free to get started.</strong>
-						</p>
-
-						<a href={process.env.NEXT_PUBLIC_LOGIN_URL} className="btn btn--primary btn--large">
-							Try for free
-						</a>
 					</div>
 				</div>
 			</div>
