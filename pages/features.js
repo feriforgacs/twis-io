@@ -1,7 +1,7 @@
 import Layout from "../components/Layout";
 import Image from "next/image";
 
-export default function Features() {
+export default function FeaturesPage() {
 	return (
 		<Layout className="subpage" title={`Features - ${process.env.NEXT_PUBLIC_SITE_NAME}`}>
 			<div className="container">
