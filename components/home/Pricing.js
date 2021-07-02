@@ -1,7 +1,7 @@
 import { useState } from "react";
 import PricingOption from "./PricingOption";
 
-export default function Pricing() {
+export default function Pricing({ showTitle = true, lightVersion = false }) {
 	const [term, setTerm] = useState("yearly");
 
 	const pricingOptions = [
@@ -29,8 +29,9 @@ export default function Pricing() {
 	];
 
 	return (
-		<div id="pricing">
-			<h3>Pricing</h3>
+		<div id="pricing" className={`${lightVersion ? "pricing--light" : ""}`}>
+			{showTitle ? <h3>Pricing</h3> : ""}
+
 			<div id="pricing__terms" className={`term--${term}`}>
 				<button onClick={() => setTerm("yearly")}>
 					Billed yearly <span>-20%</span>

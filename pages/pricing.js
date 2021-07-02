@@ -1,4 +1,5 @@
 import Layout from "../components/Layout";
+import Pricing from "../components/home/Pricing";
 
 export default function PricingPage() {
 	return (
@@ -10,6 +11,8 @@ export default function PricingPage() {
 							<h1 className="align--center">Pricing</h1>
 							<h2 className="align--center font--mulish">TODO</h2>
 						</div>
+
+						<Pricing showTitle={false} />
 					</div>
 				</div>
 			</div>
