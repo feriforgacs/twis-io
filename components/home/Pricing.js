@@ -29,7 +29,8 @@ export default function Pricing({ showTitle = true, lightVersion = false }) {
 	];
 
 	return (
-		<div id="pricing" className={`${lightVersion ? "pricing--light" : ""}`}>
+		<div className={`${lightVersion ? "pricing--light" : ""}`}>
+			<div id="pricing"></div>
 			{showTitle ? <h3>Pricing</h3> : ""}
 
 			<div id="pricing__terms" className={`term--${term}`}>

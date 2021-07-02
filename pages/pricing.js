@@ -12,7 +12,7 @@ export default function PricingPage() {
 							<h2 className="align--center font--mulish">TODO</h2>
 						</div>
 
-						<Pricing showTitle={false} />
+						<Pricing showTitle={false} lightVersion={true} />
 					</div>
 				</div>
 			</div>

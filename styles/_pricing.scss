@@ -15,4 +15,44 @@
 			}
 		}
 	}
+
+	.pricing--light {
+		#pricing {
+			&__terms {
+				background: #eee;
+
+				&::before {
+					background: linear-gradient(to top, #f7f7f7, #fff);
+				}
+
+				button {
+					color: #333;
+				}
+			}
+
+			&__options {
+				.pricing-option {
+					&__body {
+						background: #fff;
+					}
+
+					h4 {
+						border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+					}
+
+					&__price {
+						.price {
+							color: #b426c7;
+						}
+					}
+
+					&__features {
+						li {
+							background-image: url("/images/home/icon--check--dark.svg");
+						}
+					}
+				}
+			}
+		}
+	}
 }
