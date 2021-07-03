@@ -30,29 +30,30 @@ export default function Pricing({ showTitle = true, lightVersion = false }) {
 
 	return (
 		<div className={`${lightVersion ? "pricing--light" : ""}`}>
-			<div id="pricing"></div>
-			{showTitle ? <h3>Pricing</h3> : ""}
+			<div id="pricing">
+				{showTitle ? <h3>Pricing</h3> : ""}
 
-			<div id="pricing__terms" className={`term--${term}`}>
-				<button onClick={() => setTerm("yearly")}>
-					Billed yearly <span>-20%</span>
-				</button>
-				<button onClick={() => setTerm("monthly")}>Billed monthly</button>
-			</div>
+				<div id="pricing__terms" className={`term--${term}`}>
+					<button onClick={() => setTerm("yearly")}>
+						Billed yearly <span>-20%</span>
+					</button>
+					<button onClick={() => setTerm("monthly")}>Billed monthly</button>
+				</div>
 
-			<div id="pricing__options">
-				{pricingOptions.map((option, index) => (
-					<PricingOption key={index} term={term} name={option.name} price={term === "monthly" ? option.priceMonthly : option.priceYearly} participantLimit={option.participantLimit} overagesCost={option.overagesCost} />
-				))}
-			</div>
+				<div id="pricing__options">
+					{pricingOptions.map((option, index) => (
+						<PricingOption key={index} term={term} name={option.name} price={term === "monthly" ? option.priceMonthly : option.priceYearly} participantLimit={option.participantLimit} overagesCost={option.overagesCost} />
+					))}
+				</div>
 
-			<div id="pricing__cta">
-				<a href={process.env.NEXT_PUBLIC_LOGIN_URL} className="btn btn--primary btn--large">
-					Try for free
-				</a>
-				<p>
-					<small>No credit card required</small>
-				</p>
+				<div id="pricing__cta">
+					<a href={process.env.NEXT_PUBLIC_LOGIN_URL} className="btn btn--primary btn--large">
+						Try for free
+					</a>
+					<p>
+						<small>No credit card required</small>
+					</p>
+				</div>
 			</div>
 		</div>
 	);
