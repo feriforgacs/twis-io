@@ -1,8 +1,12 @@
-export default function PricingOption({ term, name, price, participantLimit, overagesCost }) {
+import Image from "next/image";
+
+export default function PricingOption({ term, icon, name, price, participantLimit, overagesCost }) {
 	return (
 		<div className="pricing-option">
 			<div className="pricing-option__body">
-				<h4>{name}</h4>
+				<h4>
+					<Image src={icon} width={20} height={20} /> {name}
+				</h4>
 				<div className="pricing-option__price">
 					<strong className="price">{price}</strong>
 					<span className="term"> / month</span>

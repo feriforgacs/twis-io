@@ -6,21 +6,24 @@ export default function Pricing({ showTitle = true, lightVersion = false }) {
 
 	const pricingOptions = [
 		{
-			name: "👍 Basic",
+			icon: "/images/home/emoji--thumbs-up.png",
+			name: "Basic",
 			priceMonthly: "$29",
 			priceYearly: "$23",
 			participantLimit: 100,
 			overagesCost: "$0.25",
 		},
 		{
-			name: "⭐ Pro",
+			icon: "/images/home/emoji--star.png",
+			name: "Pro",
 			priceMonthly: "$49",
 			priceYearly: "$39",
 			participantLimit: 1000,
 			overagesCost: "$0.05",
 		},
 		{
-			name: "🚀 Premium",
+			icon: "/images/home/emoji--rocket.png",
+			name: "Premium",
 			priceMonthly: "$69",
 			priceYearly: "$55",
 			participantLimit: 10000,
@@ -42,7 +45,7 @@ export default function Pricing({ showTitle = true, lightVersion = false }) {
 
 				<div id="pricing__options">
 					{pricingOptions.map((option, index) => (
-						<PricingOption key={index} term={term} name={option.name} price={term === "monthly" ? option.priceMonthly : option.priceYearly} participantLimit={option.participantLimit} overagesCost={option.overagesCost} />
+						<PricingOption key={index} term={term} icon={option.icon} name={option.name} price={term === "monthly" ? option.priceMonthly : option.priceYearly} participantLimit={option.participantLimit} overagesCost={option.overagesCost} />
 					))}
 				</div>
 
