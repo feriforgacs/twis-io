@@ -8,14 +8,20 @@ export default function UseCases() {
 					<div className="content__body use-cases-page">
 						<div className="lead">
 							<h1 className="align--center">Use cases</h1>
-							<h2 className="align--center font--mulish">Situations, where twis can help you grow your brand</h2>
+							<h2 className="align--center font--mulish">Situations, where twis can help you grow</h2>
 						</div>
 
 						<div className="use-cases">
 							<div className="use-case-item">
 								<div className="use-case-item__description">
 									<h4>From TikTok videos to twis campaigns</h4>
-									<p>###TODO tiktok video » not ideal to grow db » drive visitors to twis campaign » ask them to play a short game » give them a small gift » collect their names and email addresses » select random winners</p>
+									<p>While grabbing the attention of your potential customers on TikTok is relatively easy, growing a database that is truly yours is a bit harder.</p>
+									<p>This is where twis can help you without completely breaking the TikTok experience.</p>
+									<p>
+										<a href="" className="link">
+											Learn more...
+										</a>
+									</p>
 								</div>
 
 								<div className="use-case-item__illustration">illustration</div>
@@ -25,6 +31,13 @@ export default function UseCases() {
 							<div className="use-case-item use-case-item--reverse">
 								<div className="use-case-item__description">
 									<h4>Grow your database with the combination of Instagram story ads and twis campaigns</h4>
+									<p>Showing your key message to potential customers on Instagram is something you have to do to build a great online presence. But what if besides growing your follower base, you'd also like to build a database of potential customers you can easily reach later?</p>
+									<p>To accomplish that, you can add twis to your digital toolset.</p>
+									<p>
+										<a href="" className="link">
+											Learn more...
+										</a>
+									</p>
 									<p>###TODO sometimes a story is too short to convince someone about something » use a twis campaign to highlight the benefints of your product » do it by asking educative questions » give them a reward, eg a discount code they can use on their first order</p>
 								</div>
 
