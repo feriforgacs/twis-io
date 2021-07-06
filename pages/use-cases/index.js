@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import Layout from "../../components/Layout";
 
 export default function UseCases() {
@@ -25,7 +26,9 @@ export default function UseCases() {
 									</p>
 								</div>
 
-								<div className="use-case-item__illustration">illustration</div>
+								<div className="use-case-item__illustration">
+									<Image src="/images/use-cases/tiktok-to-twis.png" width={800} height={597} layout="responsive" />
+								</div>
 							</div>
 							{/* end .use-case-item */}
 
@@ -42,7 +45,9 @@ export default function UseCases() {
 									<p>###TODO sometimes a story is too short to convince someone about something » use a twis campaign to highlight the benefints of your product » do it by asking educative questions » give them a reward, eg a discount code they can use on their first order</p>
 								</div>
 
-								<div className="use-case-item__illustration">illustration</div>
+								<div className="use-case-item__illustration">
+									<Image src="/images/use-cases/instagram-to-twis.png" width={800} height={597} layout="responsive" />
+								</div>
 							</div>
 							{/* end .use-case-item */}
 
