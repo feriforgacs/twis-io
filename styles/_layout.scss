@@ -21,6 +21,11 @@
 			padding: 8rem 0;
 		}
 
+		.lead-image {
+			margin: 3rem auto;
+			max-width: 500px;
+		}
+
 		&__sidebar {
 			@media only screen and (min-width: 996px) {
 				flex: 3;

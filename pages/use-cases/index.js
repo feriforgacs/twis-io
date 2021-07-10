@@ -53,7 +53,7 @@ export default function UseCases() {
 
 							<div className="use-case-item">
 								<div className="use-case-item__description">
-									<h4>Go with a format that was deisgned for mobile</h4>
+									<h4>Go with a format that was designed for mobile</h4>
 									<p>While the usage of social media and other online platforms heavily shifted to mobile, some brands are still planning to desktop in the first place.</p>
 									<p>When it comes to online campaigns, going mobile-first plays a crucial part in your success.</p>
 									<p>Campaigns built with twis follow the story format which was designed to work best on mobile devices.</p>
