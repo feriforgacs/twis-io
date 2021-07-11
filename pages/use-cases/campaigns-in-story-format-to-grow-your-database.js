@@ -18,21 +18,21 @@ export default function UseCaseStoryFormat() {
 							<Image src="/images/use-cases/desktop-to-twis.png" width={800} height={597} layout="responsive" />
 						</div>
 
-						<p>Since the Story format was first introduced in 2013, it took over most of the social platforms, chat apps, and Google also created their own version with AMP stories.</p>
+						<p>Since the story format was first introduced in 2013, it took over most of the social platforms, chat apps, and Google also created their own version with AMP stories.</p>
 
 						<p>By now, users are pretty familiar with this format, so you don't have to introduce it to people, they'll just know how to use it. And this familiarity is what makes twis campaigns more engaging and can provide a great experience for its users.</p>
 
-						<p>Compared to a microsite that was designed to desktop on the first place and adapted to mobile later on, the story format, and twis campaigns are visually appealing and attrack users attention.</p>
+						<p>Compared to a microsite that was designed to desktop in the first place and then adapted to mobile, the story format and twis campaigns are visually appealing and attract users' attention.</p>
 
 						<p>
-							According to{" "}
+							And that is key for success and to grow brand awareness, as according to{" "}
 							<a href="https://www.hubspot.com/marketing-statistics" target="_blank" rel="noopener noreferrer" className="link">
 								studies
 							</a>
 							, people can recall 65% of the visual content that they see almost three days later.
 						</p>
 
-						<p>While mobile optimized microsites can also provide a great experience, setting it up properly can be really time and reosurce consuming. In most cases, you'll need a developer (sometimes a front-end and a back-end developer), a designer, and a copywriter. You have to provide the environment where the site will be hosted, and that can introduce another person to the process.</p>
+						<p>While mobile-optimized microsites can also provide a great experience, setting it up properly can be really time and resource-consuming. In most cases, you'll need a developer (sometimes a front-end and a back-end developer), a designer, and a copywriter. You have to provide the environment where the site will be hosted, and that can involve another person in the process.</p>
 
 						<p>
 							With the help of twis, one person will be able to set up a campaign from start to finish. Thanks to its{" "}
@@ -42,7 +42,39 @@ export default function UseCaseStoryFormat() {
 							, someone who knows how to create and edit a Powerpoint presentation can also create a twis campaign.
 						</p>
 
-						<p>###TODO combine with social media » keep users in the flow » ask for user data only at the end</p>
+						<p>You can drive users to a twis experience from your website, from an email campaign, you can also use QR codes in your packaging that points to your campaign. Basically anywhere where you can use a simple URL.</p>
+
+						<p>Twis is also powerful when used together with social media because the format keeps users in the flow they were in while consuming content on social platforms.</p>
+
+						<p>
+							You can post a twis experience on Facebook, or it can be the landing page of your{" "}
+							<Link href="/use-cases/collect-emails-and-grow-your-database-through-instagram">
+								<a className="link">Instagram</a>
+							</Link>{" "}
+							or{" "}
+							<Link href="/use-cases/collect-emails-and-grow-your-database-through-tiktok">
+								<a className="link">TikTok</a>
+							</Link>{" "}
+							ad campaigns, so you can also grow your database outside those platforms.
+						</p>
+
+						<div className="use-case-footer">
+							<p className="align--center">
+								<strong>
+									This is just one use case where twis can help you grow.
+									<br />
+									Why don't you give it a try? It's free to get started.
+								</strong>
+							</p>
+
+							<a href={process.env.NEXT_PUBLIC_LOGIN_URL} className="btn btn--primary btn--large">
+								Try for free
+							</a>
+
+							<p className="align--center">
+								<small>No credit card required</small>
+							</p>
+						</div>
 					</div>
 				</section>
 			</div>
