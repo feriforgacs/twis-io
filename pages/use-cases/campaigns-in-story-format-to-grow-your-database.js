@@ -5,7 +5,7 @@ import UseCaseSidebar from "../../components/sidebars/use-case-sidebar";
 
 export default function UseCaseStoryFormat() {
 	return (
-		<Layout className="subpage" title={`Go with a format that was deisgned for mobile - ${process.env.NEXT_PUBLIC_SITE_NAME}`}>
+		<Layout className="subpage" title={`Go with a format that was designed for mobile - ${process.env.NEXT_PUBLIC_SITE_NAME}`}>
 			<div className="container">
 				<section className="content">
 					<div className="content__sidebar">
