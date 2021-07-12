@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import Layout from "../../components/Layout";
 import UseCaseSidebar from "../../components/sidebars/use-case-sidebar";
+import UseCaseFooter from "../../components/use-case/UseCaseFooter";
 
 export default function UseCaseStoryFormat() {
 	return (
@@ -58,23 +59,7 @@ export default function UseCaseStoryFormat() {
 							ad campaigns, so you can also grow your database outside those platforms.
 						</p>
 
-						<div className="use-case-footer">
-							<p className="align--center">
-								<strong>
-									This is just one use case where twis can help you grow.
-									<br />
-									Why don't you give it a try? It's free to get started.
-								</strong>
-							</p>
-
-							<a href={process.env.NEXT_PUBLIC_LOGIN_URL} className="btn btn--primary btn--large">
-								Try for free
-							</a>
-
-							<p className="align--center">
-								<small>No credit card required</small>
-							</p>
-						</div>
+						<UseCaseFooter />
 					</div>
 				</section>
 			</div>
