@@ -54,7 +54,6 @@ export default function UseCases() {
 											<a className="link">Learn more...</a>
 										</Link>
 									</p>
-									<p>###TODO sometimes a story is too short to convince someone about something » use a twis campaign to highlight the benefints of your product » do it by asking educative questions » give them a reward, eg a discount code they can use on their first order</p>
 								</div>
 
 								<div className="use-case-item__illustration">
