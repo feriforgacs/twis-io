@@ -34,6 +34,24 @@ export default function Examples() {
 								</a>
 							</div>
 						</div>
+
+						<div className="examples-footer">
+							<p className="align--center">
+								<strong>
+									These are just a few examples of the experiences you can create with twis.
+									<br />
+									Why don't you give it a try? It's free to get started.
+								</strong>
+							</p>
+
+							<a href={process.env.NEXT_PUBLIC_LOGIN_URL} className="btn btn--primary btn--large">
+								Try for free
+							</a>
+
+							<p className="align--center">
+								<small>No credit card required</small>
+							</p>
+						</div>
 					</div>
 				</div>
 			</div>
