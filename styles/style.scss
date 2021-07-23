@@ -5,12 +5,13 @@
 @import "footer";
 @import "home";
 @import "sidebar_nav";
-@import "faq";
+@import "pages/faq";
 @import "callout";
 @import "customer_flow";
-@import "features";
-@import "pricing";
-@import "use_cases";
+@import "pages/features";
+@import "pages/pricing";
+@import "pages/use_cases";
+@import "pages/examples";
 @import "utility";
 
 html,
